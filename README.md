@@ -6,7 +6,7 @@ Tugas akhir RPL kelompok 7
 - Melakukan clone dari repository (disarankan menginstall git).
 
 ```bash
-git clone https://github.com/aristorenadlo/AmplopCoklat.git
+git clone https://github.com/aristorenaldo/AmplopCoklat.git
 ```
 
 - Melalui download `.zip`. Kemudian extract file
