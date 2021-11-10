@@ -6,14 +6,14 @@ Tugas akhir RPL kelompok 7
 - Melakukan clone dari repository (disarankan menginstall git).
 
 ```bash
-git clone https://github.com/hendrawanap/daking.git
+git clone https://github.com/aristorenadlo/AmplopCoklat.git
 ```
 
 - Melalui download `.zip`. Kemudian extract file
 
 ## Penginstallan
 
-1. Jalankan database mysql dan buatlah database dengan `daking` (nama database dapat diganti).
+1. Jalankan database mysql dan buatlah database dengan `AmplopCoklat` (nama database dapat diganti).
 
 2. Membuat file `.env` pada folder root project menggunakan text editor.
 
@@ -22,7 +22,7 @@ git clone https://github.com/hendrawanap/daking.git
 4. Di dalam file `.env`, sesuaikan informasi database yang dibuat.
 
 ```
-DB_DATABASE=daking
+DB_DATABASE=AmplopCoklat
 DB_USERNAME=root
 DB_PASSWORD=
 ```
