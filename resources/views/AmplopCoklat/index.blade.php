@@ -5,15 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
+
     <title>AmplopCoklat</title>
 
-    <link href="{{ ('resources/css/bootstrap.css') }}" rel="stylesheet"> 
-
-    <link href="{{ ('resources/css/maicon.css') }}" rel="stylesheet"> 
-
-    <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
-
-    <link rel="stylesheet" href="../assets/css/theme.css">
 </head>
 <body>
 
@@ -22,7 +19,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div class="container">
-        <a href="#" class="navbar-brand">Seo<span class="text-primary">Gram.</span></a>
+        <a href="#" id="judul" class="navbar-brand">AmplopCoklat</a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,7 +43,7 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">Free Analytics</a>
+              <a class="btn btn-primary ml-lg-2" href="#">Sign Up</a>
             </li>
           </ul>
         </div>
@@ -56,16 +53,11 @@
 
     <div class="container">
       <div class="page-banner home-banner">
-        <div class="row align-items-center flex-wrap-reverse h-100">
-          <div class="col-md-6 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Let's Check and Optimize your website!</h1>
-            <p class="text-lg text-grey mb-5">Ignite the most powerfull growth engine you have ever built for your company</p>
+        <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
+          <div class="col-md-12 py-5 wow fadeInLeft">
+            <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
+            <p id="tagline" class="text-lg text-grey mb-5">Disabilitas Bisa Kerja</p>
             <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
-          </div>
-          <div class="col-md-6 py-5 wow zoomIn">
-            <div class="img-fluid text-center">
-              <img src="../assets/img/banner_image_1.svg" alt="">
-            </div>
           </div>
         </div>
         <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
@@ -82,9 +74,10 @@
               <img src="../assets/img/services/service-1.svg" alt="">
             </div>
             <div class="body">
-              <h5 class="text-secondary">SEO Consultancy</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <img id="logo-google" src="/images/Google.png">
+              <h5 class="text-secondary">UI Designer</h5>
+              <p class="text-secondary-bottom">Google LLC</p>
+              <a href="service.html" class="btn btn-primary">Details</a>
             </div>
           </div>
         </div>
@@ -136,6 +129,65 @@
       </div>
     </div> <!-- .container -->
   </div> <!-- .page-section -->
+
+  <!-- LOWONGAN KERJA -->
+  <div class="page-section">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="subhead">Our Blog</div>
+        <h2 class="title-section">Read Latest News</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-3.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-4 text-center wow fadeInUp">
+          <a href="blog.html" class="btn btn-primary">View More</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="page-section bg-light">
     <div class="container">
@@ -351,64 +403,6 @@
     </div> <!-- .wrap -->
   </div> <!-- .page-section -->
 
-  <!-- Blog -->
-  <div class="page-section">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Our Blog</div>
-        <h2 class="title-section">Read Latest News</h2>
-        <div class="divider mx-auto"></div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-1.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-2.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-3.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 mt-4 text-center wow fadeInUp">
-          <a href="blog.html" class="btn btn-primary">View More</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
     <div class="container">
@@ -455,15 +449,13 @@
     </div>
   </footer>
 
-<script src="../assets/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
 
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="{{ asset('js/google-maps.js') }}"></script>
 
-<script src="../assets/js/google-maps.js"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
 
-<script src="../assets/vendor/wow/wow.min.js"></script>
-
-<script src="../assets/js/theme.js"></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
   
 </body>
 </html>

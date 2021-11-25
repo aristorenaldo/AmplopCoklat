@@ -51,6 +51,10 @@
   article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
   }
+
+  .banner{
+    background-color: #7A6250;
+  }
   
   body {
     margin: 0;
@@ -62,7 +66,10 @@
     text-align: left;
     background-color: #fff;
   }
-  
+  #judul{
+    color: #5A4D47;
+  }
+
   [tabindex="-1"]:focus:not(:focus-visible) {
     outline: 0 !important;
   }
@@ -83,6 +90,11 @@
     margin-bottom: 1rem;
   }
   
+  #logo-google{
+    height: 62px;
+    width: 62px;
+  }
+
   abbr[title],
   abbr[data-original-title] {
     text-decoration: underline;
@@ -153,7 +165,7 @@
   }
   
   a {
-    color: #007bff;
+    /* color: #007bff; */
     text-decoration: none;
     background-color: transparent;
   }
@@ -4367,6 +4379,7 @@
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+    color: white;
   }
   
   .navbar-brand:hover, .navbar-brand:focus {
@@ -8253,7 +8266,15 @@
     margin-right: 1.5rem !important;
   }
   
-  .mb-4,
+  .mb-4{
+    color: #48444C;
+  }
+
+  #tagline{
+    font-size: 20px;
+    color: #342522; 
+  }
+
   .my-4 {
     margin-bottom: 1.5rem !important;
   }
