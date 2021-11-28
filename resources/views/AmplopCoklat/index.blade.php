@@ -56,8 +56,11 @@
         <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
           <div class="col-md-12 py-5 wow fadeInLeft">
             <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
-            <p id="tagline" class="text-lg text-grey mb-5">Disabilitas Bisa Kerja</p>
-            <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a>
+            <p id="tagline">Disabilitas Bisa Kerja</p>
+            <img src="disability.png" alt="Gambar Disability">
+            <div class="search">
+              <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
+            </div>
           </div>
         </div>
         <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>

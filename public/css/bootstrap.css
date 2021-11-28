@@ -93,6 +93,7 @@
   #logo-google{
     height: 62px;
     width: 62px;
+    margin-bottom: 20px;
   }
 
   abbr[title],
@@ -347,7 +348,20 @@
     font: inherit;
     -webkit-appearance: button;
   }
-  
+
+  .searchTerm {
+    width: 30%;
+    height: 75%;
+    border: 1px solid #B1ADAD;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(243, 243, 243, 0.5);
+    font-weight: lighter;
+    font-size: 15px;
+    color: #ADA7A5;
+  }
+
   output {
     display: inline-block;
   }
@@ -1194,8 +1208,7 @@
       max-width: 91.666667%;
     }
     .col-md-12 {
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
+      margin-bottom: 230px;
       max-width: 100%;
     }
     .order-md-first {
@@ -8271,8 +8284,10 @@
   }
 
   #tagline{
-    font-size: 20px;
-    color: #342522; 
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: #544643; 
   }
 
   .my-4 {
