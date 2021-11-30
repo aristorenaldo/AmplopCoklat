@@ -10,6 +10,8 @@
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
     <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/seleksiberkas.css') }}" rel="stylesheet">
 
     <title>AmplopCoklat</title>
 
@@ -51,7 +53,9 @@
             </div>
         </nav>
     </header>
+
     @yield('contents')
+    
     <script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
 
     <script type="text/javascript" src="{{ asset('js/google-maps.js') }}"></script>

@@ -52,3 +52,7 @@ Route::get('/splashpage', function () {
 Route::get('/melihatinfo', function () {
     return view('AmplopCoklat.melihatinfo');
 });
+
+Route::get('/seleksiberkas', function () {
+    return view('AmplopCoklat.seleksiberkas');
+});

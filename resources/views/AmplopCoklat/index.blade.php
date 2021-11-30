@@ -1,69 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('master')
+@section('contents')
+    
 
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
-
-    <title>AmplopCoklat</title>
-</head>
-<body>
-
-  <!-- Back to top button -->
-  <div class="back-to-top"></div>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
-      <div class="container">
-        <a href="#" id="judul" class="navbar-brand">Amplop Coklat</a>
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary2 ml-lg-2" href="#">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="page-banner home-banner">
-        <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
-          <div class="col-md-6 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
-            <p class="tagline">Disabilitas Bisa Kerja</p>
-            <div class="search">
-              <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
-              <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20"></span>
-            </div>
-          </div>
-          <div class="col-md-62 py-5 wow zoomIn">
-            <div class="img-fluid mt-5">
-              <img src="images/homepic.png" alt="Gambar-Home" width = "490" height = "369">
-            </div>
+  <div class="container">
+    <div class="page-banner home-banner">
+      <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
+        <div class="col-md-6 py-5 wow fadeInLeft">
+          <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
+          <p class="tagline">Disabilitas Bisa Kerja</p>
+          <div class="search">
+            <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
+            <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20"></span>
           </div>
         </div>
-        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+        <div class="col-md-62 py-5 wow zoomIn">
+          <div class="img-fluid mt-5">
+            <img src="images/homepic.png" alt="Gambar-Home" width = "490" height = "369">
+          </div>
+        </div>
       </div>
+      <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
     </div>
-  </header>
-
+  </div>
   <div class="page-section">
     <div class="text-center wow fadeInUp">
       <div class="subhead2">Lowongan Pekerjaan Tersedia</div>
@@ -269,15 +227,6 @@
     </footer>
   </div>
 
-<script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/google-maps.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-  
-</body>
-</html>
+@endsection
 
 
