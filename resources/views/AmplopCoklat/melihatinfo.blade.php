@@ -75,23 +75,30 @@
         </div>
     </div>
     </header>
-    <div class="container">
-        <div class="col-lg-6 py-3 wow fadeInUp">
-            <h3>Pendaftar:</h3>
-            <div class="border rounded-lg p-5">
-                <div class="row">
-                    <div class="col-6 ">
-                        
-                    </div>
 
+    <div class="container mt-4">
+        <h3>Pendaftar:</h3>
+        <div class="col-lg-12 p-5 rounded-top border">
+        
+            <div class="row border-bottom border-dark py-2">
+                <div class="col-md-8 py-auto">
+                    <p class="mb-0">Anggasta Aji</p>
                 </div>
-                <!-- <ul class="mb-0">
-                    <li>Anggasta Aji Azhari</li>
-                    <div class="divider"></div>
-                    <li>Anggasta Aji Azhari</li>
-                    <div class="divider"></div>
-                </ul> -->
+                <div class="col-md-4">
+                    <a href="" class="btn btn-primary">Form</a>
+                    <a href="" class="btn btn-secondary">Berkas</a>
+                </div>
             </div>
+            <div class="row border-bottom border-dark py-2">
+                <div class="col-md-8 py-auto">
+                    <p class="mb-0">Anggasta Aji</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="" class="btn btn-primary">Form</a>
+                    <a href="" class="btn btn-secondary">Berkas</a>
+                </div>
+            </div>  
+            
         </div>
     </div>
     <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">

@@ -430,7 +430,6 @@ a.text-dark:focus {
 /* Buttons */
 .btn-primary {
     color: #fff;
-    margin-top: 20px;
     background-color: #695C56;
     border-color: transparent;
     border-radius: 9px;
@@ -438,7 +437,6 @@ a.text-dark:focus {
 
 .btn-primary2 {
     color: #fff;
-    margin-left: 110px;
     background-color: #695C56;
     border-color: transparent;
 }
