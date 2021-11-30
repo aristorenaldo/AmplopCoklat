@@ -59,21 +59,24 @@
     </header>
     <div class="container">
         <div class="page-banner home-banner mb-5">
-            <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
-                <div class="col-md-12 py-2 wow fadeInLeft">
-                    <div class="d-flex align-items-center">
-                        <img class="rounded img-thumbnail w-25" src="/images/profile.png">
-                        <ul type="none">
+            <div id="banner" class="p-5">
+                <div class="row py-2">
+                    <div class="col-md-4">
+                        <img class="rounded img-fluid w-100 " src="/images/profile.png">
+                    </div>
+                    <div class="col-md-8">
+                        <ul type="none" class="my-auto">
                             <li>
-                                <td><b>Nama</b></td>
-                                <td>:</td>
-                                <td> Budi Budidi</td>
+                                <b>Nama</b>
+                                :
+                                Budi Budidi
                             </li>
                             <li><b>Pilihan Pekerjaan</b> : UI Designer</li>
                             <li><b>Perusahaan</b> : Google LLC</li>
                             <li><b>Waktu Pendaftaran</b> : 22 November 2021</li>
                         </ul>
-                    </div>
+                    </div>    
+                        
                 </div>
             </div>
         </div>
