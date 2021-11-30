@@ -16,6 +16,7 @@
 
 <body>
 
+
     <!-- Back to top button -->
     <div class="back-to-top"></div>
     <header>
@@ -41,26 +42,24 @@
 
             </div>
         </nav>
-
-        <div class="container">
-            <div class="page-banner home-banner">
-                <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
-                    <div class="col-md-6 py-5 wow fadeInLeft">
-                        <h1 class="mb-4">Halo, Budi Budidi!</h1>
-                        <p class="tagline">Disabilitas Bisa Kerja</p>
-                        <div class="search">
-                            <input type="text" class="searchTerm" placeholder="UI Designer">
-                            <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width="20" height="20"></span>                            
-                        </div>
+        <div class="page-banner home-banner">
+            <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
+                <div class="col-md-6 py-5 wow fadeInLeft">
+                    <h1 class="mb-4">Halo, Budi Budidi!</h1>
+                    <p class="tagline">Disabilitas Bisa Kerja</p>
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="UI Designer">
+                        <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width="20" height="20"></span>
                     </div>
-                    <div class="col-md-62 py-5 wow zoomIn">
-                        <div class="img-fluid mt-5">
-                            <img src="images/homepic.png" alt="Gambar-Home" width="490" height="369">
-                            
-                        </div>
+                </div>
+                <div class="col-md-62 py-5 wow zoomIn">
+                    <div class="img-fluid mt-5">
+                        <img src="images/homepic.png" alt="Gambar-Home" width="490" height="369">
+
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </header>
 
