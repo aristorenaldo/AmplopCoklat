@@ -408,17 +408,6 @@ progress {
     box-shadow: 2px 2px #756e6b;
  }
 
-  .searchTerm {
-    font-weight: lighter;
-    width: 300px;
-    font-size: 16px;
-    margin-top: 7px;
-    margin-left: 10px;
-    font-weight: lighter;
-    background-color: transparent;
-    border: none;
-  }
-
   .logo-search{
     align-items: center;
   }
@@ -5349,11 +5338,6 @@ input[type="button"].btn-block {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
   }
-  
-
-#card-loker1 {
-    color: #000;
-}
 
 .card>hr {
     margin-right: 0;
@@ -9151,10 +9135,6 @@ button.bg-dark:focus {
     margin-top: 50px;
     position: absolute;
   }
-
-  .tagline{
-    margin-top: 250px;
-}
 
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
