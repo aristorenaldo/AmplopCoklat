@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('css/statusloker.css') }}" rel="stylesheet">
-    <!-- <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme.css') }}" rel="stylesheet"> -->
+
+    {{--
+    <link href="{{ asset('css/statusloker.css') }}" rel="stylesheet"> --}}
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
 
     <title>AmplopCoklat</title>
 
@@ -23,7 +26,8 @@
             <div class="container">
                 <a href="#" id="judul" class="navbar-brand">AmplopCoklat</a>
 
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -58,7 +62,7 @@
                 <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
                     <div class="col-md-12 py-2 wow fadeInLeft">
                         <div class="d-flex align-items-center">
-                            <img id="logo-profile" src="/images/profile.png">
+                            <img class="rounded img-thumbnail w-25" src="/images/profile.png">
                             <ul type="none">
                                 <li>
                                     <td><b>Nama</b></td>
@@ -77,14 +81,8 @@
         <div class="row align-items-center">
             <h3 class="progres">Progres Pendaftaran:</h3>
             <div class="container">
-                <div class="page-banner2 home-banner">
-                    <div id="banner" class="row align-items-center flex-wrap-reverse h-50">
-                        <li>MainActivity2</li>
-                        <div class="col-md-12 py-2 wow fadeInLeft">
-                            <div class="d-flex align-items-center">
-                            </div>
-                        </div>
-                    </div>
+                <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div class="row align-items-center">
                     <h3 class="progres">Keterangan:</h3>
@@ -119,7 +117,8 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a>
+                                                </h5>
                                                 <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
                                             </div>
                                         </div>
@@ -133,7 +132,8 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a>
+                                                </h5>
                                                 <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
                                             </div>
                                         </div>
@@ -147,7 +147,8 @@
                                                 </div>
                                             </div>
                                             <div class="body">
-                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+                                                <h5 class="post-title"><a href="#">Source of Content Inspiration</a>
+                                                </h5>
                                                 <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
                                             </div>
                                         </div>
@@ -175,7 +176,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -184,7 +186,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -193,7 +196,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -202,7 +206,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -211,7 +216,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -220,7 +226,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -229,7 +236,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
@@ -238,7 +246,8 @@
                                                 <span class="mai-business"></span>
                                             </div>
                                             <h5>OnSite SEO</h5>
-                                            <p>We analyse your website's structure, internal architecture & other key</p>
+                                            <p>We analyse your website's structure, internal architecture & other key
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,16 +360,19 @@
                                         <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
                                             <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
                                             <div class="divider"></div>
-                                            <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
+                                            <p>We're an experienced and talented team of passionate consultants who
+                                                breathe with search engine marketing.</p>
 
                                             <ul class="theme-list theme-list-light text-white">
                                                 <li>
                                                     <div class="h5">SEO Content Strategy</div>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                                        nonumy eirmod tempor</p>
                                                 </li>
                                                 <li>
                                                     <div class="h5">B2B SEO</div>
-                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                                        nonumy eirmod tempor</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -375,12 +387,14 @@
                         </div> <!-- .page-section -->
 
 
-                        <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
+                        <footer class="page-footer bg-image"
+                            style="background-image: url(../assets/img/world_pattern.svg);">
                             <div class="container">
                                 <div class="row mb-5">
                                     <div class="col-lg-3 py-3">
                                         <h3>SEOGram</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet,
+                                            repellendus eius blanditiis in iusto eligendi iure.</p>
 
                                         <div class="social-media-button">
                                             <a href="#"><span class="mai-logo-facebook-f"></span></a>
@@ -411,12 +425,14 @@
                                         <p>Get updates, news or events on your mail.</p>
                                         <form action="#">
                                             <input type="text" class="form-control" placeholder="Enter your email..">
-                                            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
+                                            <button type="submit"
+                                                class="btn btn-success btn-block mt-2">Subscribe</button>
                                         </form>
                                     </div>
                                 </div>
 
-                                <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+                                <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and
+                                    develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
                             </div>
                         </footer>
 

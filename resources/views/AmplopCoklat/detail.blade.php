@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('css/detail.css') }}" rel="stylesheet">
-    <!-- <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme.css') }}" rel="stylesheet"> -->
+    <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
+
     <title>AmplopCoklat</title>
 
 </head>
@@ -21,7 +22,8 @@
             <div class="container">
                 <a href="#" id="judul" class="navbar-brand">AmplopCoklat</a>
 
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -51,19 +53,19 @@
         </nav>
 
         <div class="container">
-            <div class="page-banner home-banner">
-                <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
-                    <div class="col-md-12 py-2 wow fadeInLeft">
+            <div class="page-banner home-banner py-5 px-3">
+                <div id="banner" class="row align-items-center flex-wrap-reverse">
+                    <div class="col-md-12 py-2">
                         <div class="d-flex align-items-center">
                             <img id="logo-google" src="/images/Google.png">
                             <ul type="none">
                                 <li>UI Designer</li>
                                 <li>Google LLC</li>
                                 <img id="logo-place" src="/images/place.png">
-                                    <span class="text-secondary-bottom ml-1">Bandung</span>
-                            </ul> 
+                                <span class="text-secondary-bottom ml-1">Bandung</span>
+                            </ul>
                         </div>
-                        <p align="right"> Tutup: <b>28 November 2021</b></p>
+                        <p class="float-right"> Tutup: <b>28 November 2021</b></p>
                     </div>
                 </div>
             </div>
@@ -73,7 +75,12 @@
         <div class="row align-items-center">
             <div class="col-lg-6 py-3 wow fadeInUp">
                 <h4 class="title-section">Deskripsi Pekerjaan</h4>
-                <p>Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Google Indonesia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Google Indonesia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.</p>
+                <p class="text-justify">Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan
+                    kerja Google Indonesia
+                    ini. Selain itu, Google Indonesia juga membuka lowongan kerja bagi kamu yang masih menempuh
+                    pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja
+                    Google Indonesia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja
+                    tersebut.</p>
                 <h4 class="title-section">Persyaratan</h4>
                 <li>S1 atau yang memiliki pengalaman setara</li>
                 <li>Berpengalaman 4 tahun di bidang startegi/operasi</li>
@@ -82,21 +89,21 @@
             </div>
             <div class="col-lg-6 py-3 wow fadeInRight">
                 <div class="img-fluid py-3 text-center">
-                    <div class="header">
-                        <img src="../assets/img/services/service-3.svg" alt="">
-                    </div>
-                    <div class="card-service wow fadeInUp">
+                    <div class="card-service wow fadeInUp mx-5">
                         <div class="body">
                             <div class="header">
                                 <h5 class="text-secondary">Tentang Perusahaan</h5>
                                 <div class="divider"></div>
-                                <p>Google adalah perusahaan multinasional Amerika Serikat yang berkekhususan pada jasa dan produk Internet seperti pencarian, komputasi web, perangkat lunak, dan periklanan daring.</p>
-                                <div class="d-flex align-items-center">
-                                    <img id="logo-telp" src="/images/telp.png">
+                                <p class="text-justify">Google adalah perusahaan multinasional Amerika Serikat yang
+                                    berkekhususan pada jasa
+                                    dan produk Internet seperti pencarian, komputasi web, perangkat lunak, dan
+                                    periklanan daring.</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <img src="/images/telp.png">
                                     <span class="text-secondary-bottom ml-1">( 031 ) 5314771</span>
                                 </div>
                                 <div class="d-flex align-items-center">
-                                    <img id="logo-telp" src="/images/globe.png">
+                                    <img src="/images/globe.png">
                                     <span class="text-secondary-bottom ml-1">google.com</span>
                                 </div>
 
@@ -116,7 +123,8 @@
                     <span class="subhead">About Us</span>
                     <h2 class="title-section">The number #1 SEO Service Company</h2>
                     <div class="divider"></div>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
                     <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
                     <a href="about.html" class="btn btn-primary mt-3">Read More</a>
                 </div>
@@ -379,16 +387,19 @@
                     <div class="col-lg-6 py-3 pr-lg-5 wow fadeInUp">
                         <h2 class="title-section">SEO to Improve Brand <br> Visibility</h2>
                         <div class="divider"></div>
-                        <p>We're an experienced and talented team of passionate consultants who breathe with search engine marketing.</p>
+                        <p>We're an experienced and talented team of passionate consultants who breathe with search
+                            engine marketing.</p>
 
                         <ul class="theme-list theme-list-light text-white">
                             <li>
                                 <div class="h5">SEO Content Strategy</div>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor</p>
                             </li>
                             <li>
                                 <div class="h5">B2B SEO</div>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor</p>
                             </li>
                         </ul>
                     </div>
@@ -408,7 +419,8 @@
             <div class="row mb-5">
                 <div class="col-lg-3 py-3">
                     <h3>SEOGram</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis
+                        in iusto eligendi iure.</p>
 
                     <div class="social-media-button">
                         <a href="#"><span class="mai-logo-facebook-f"></span></a>
@@ -444,7 +456,8 @@
                 </div>
             </div>
 
-            <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+            <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a
+                    href="https://macodeid.com/" target="_blank">MACode ID</a></p>
         </div>
     </footer>
 
