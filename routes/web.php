@@ -43,3 +43,7 @@ Route::get('/search', function () {
 Route::get('/daftarloker', function () {
     return view('AmplopCoklat.daftarloker');
 });
+
+Route::get('/splashpage', function () {
+    return view('AmplopCoklat.splashpage');
+});
