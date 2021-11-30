@@ -11,9 +11,7 @@
     <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
 
     <title>AmplopCoklat</title>
-
 </head>
-
 <body>
 
 

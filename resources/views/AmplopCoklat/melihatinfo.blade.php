@@ -57,41 +57,33 @@
         </nav>
     </header>
     <div class="container">
-        <div class="page-banner home-banner mb-5">
-            <div id="banner" class="p-5">
-                <div class="row py-2">
-                    <div class="col-md-4">
-                        <img class="rounded img-fluid w-100 " src="/images/profile.png">
-                    </div>
-                    <div class="col-md-8">
-                        <ul type="none" class="my-auto">
-                            <li>
-                                <b>Nama</b>
-                                :
-                                Budi Budidi
-                            </li>
-                            <li><b>Pilihan Pekerjaan</b> : UI Designer</li>
-                            <li><b>Perusahaan</b> : Google LLC</li>
-                            <li><b>Waktu Pendaftaran</b> : 22 November 2021</li>
+        <div class="page-banner home-banner py-5 px-3">
+            <div id="banner" class="row align-items-center flex-wrap-reverse">
+                <div class="col-md-12 py-2">
+                    <div class="d-flex align-items-center">
+                        <img id="logo-google" src="/images/Google.png">
+                        <ul type="none">
+                            <li>UI Designer</li>
+                            <li>Google LLC</li>
+                            <img id="logo-place" src="/images/place.png">
+                            <span class="text-secondary-bottom ml-1">Bandung</span>
                         </ul>
                     </div>
-
+                    <p class="float-right"> Tutup: <b>28 November 2021</b></p>
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-column bd-highlight mb-3">
-            <h3>Progres Pendaftaran:</h3>
-            <div class="border rounded-lg p-5">
-                <div class="progress" style="height: 20px;">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex flex-column bd-highlight mb-3">
-            <h3>Keterangan:</h3>
+    </div>
+    </header>
+    <div class="container">
+        <div class="col-lg-6 py-3 wow fadeInUp">
+            <h3>Pendaftar:</h3>
             <div class="border rounded-lg p-5">
                 <ul class="mb-0">
-                    <li>Proses Seleksi Berkas oleh HRD</li>
+                    <li>Anggasta Aji Azhari</li>
+                    <div class="divider"></div>
+                    <li>Anggasta Aji Azhari</li>
+                    <div class="divider"></div>
                 </ul>
             </div>
         </div>
