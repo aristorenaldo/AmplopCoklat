@@ -21,6 +21,13 @@ Route::get('/index', function () {
     return view('AmplopCoklat.index');
 });
 
+Route::get('/login', function () {
+    return view('AmplopCoklat.login');
+});
+Route::get('/register', function () {
+    return view('AmplopCoklat.register');
+});
+
 Route::get('/detail', function () {
     return view('AmplopCoklat.detail');
 });
@@ -31,4 +38,8 @@ Route::get('/statusloker', function () {
 
 Route::get('/search', function () {
     return view('AmplopCoklat.search');
+});
+
+Route::get('/daftarloker', function () {
+    return view('AmplopCoklat.daftarloker');
 });
