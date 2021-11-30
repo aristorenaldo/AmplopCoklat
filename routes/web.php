@@ -35,3 +35,6 @@ Route::get('/detail', function () {
 Route::get('/statusloker', function () {
     return view('AmplopCoklat.statusloker');
 });
+Route::get('/daftarloker', function () {
+    return view('AmplopCoklat.daftarloker');
+});
