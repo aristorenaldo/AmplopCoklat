@@ -1838,9 +1838,8 @@ a.text-dark:focus {
 .page-footer {
     position: relative;
     display: block;
-    padding-top: 80px;
-    padding-bottom: 16px;
-    background-color: #2D2B3A;
+    padding: 50px 60px 50px 60px;
+    background-color: #D3CBC5;
 }
 
 .page-footer p a {

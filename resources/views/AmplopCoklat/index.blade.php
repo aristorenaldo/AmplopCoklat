@@ -8,6 +8,7 @@
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
     <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
 
     <title>AmplopCoklat</title>
 
@@ -71,7 +72,7 @@
     </div>
     <div class="container">
       <div class="row" >
-        <div class="col-lg-4" id="card-loker1">
+        <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
               <img id="logo-google" src="/images/Google.png">
@@ -86,30 +87,34 @@
             </div>
           </div>
         </div>
-        <div class="card-service wow fadeInUp">
-          <div class="body">
-            <img id="logo-google" src="/images/gojek.png">
-            <h5 class="text-secondary">Android Developer</h5>
-            <p class="text-secondary-bottom">Gojek</p> 
-            <div>
-              <img src="/images/location.png" id="gambar-location" width="15" height="20">
-              <span clas="nama-lokasi">Jakarta</span>
-              <span class="gaji">Rp. 10jt/bulan</span>
+        <div class="col-lg-4">
+          <div class="card-service wow fadeInUp">
+            <div class="body">
+              <img id="logo-google" src="/images/gojek.png">
+              <h5 class="text-secondary">Android Developer</h5>
+              <p class="text-secondary-bottom">Gojek</p> 
+              <div>
+                <img src="/images/location.png" id="gambar-location" width="15" height="20">
+                <span clas="nama-lokasi">Jakarta</span>
+                <span class="gaji">Rp. 10jt/bulan</span>
+              </div>
+              <a href="service.html" class="btn btn-primary">Details</a>
             </div>
-            <a href="service.html" class="btn btn-primary">Details</a>
           </div>
-        </div>
-        <div class="card-service wow fadeInUp">
-          <div class="body">
-            <img id="logo-google" src="/images/tokopedia.png">
-            <h5 class="text-secondary">Data Engineer</h5>
-            <p class="text-secondary-bottom">Tokopedia</p> 
-            <div>
-              <img src="/images/location.png" id="gambar-location" width="15" height="20">
-              <span clas="nama-lokasi">Jakarta</span>
-              <span class="gaji">Rp. 15jt/bulan</span>
+        </div>  
+        <div class="col-lg-4">
+          <div class="card-service wow fadeInUp">
+            <div class="body">
+              <img id="logo-google" src="/images/tokopedia.png">
+              <h5 class="text-secondary">Data Engineer</h5>
+              <p class="text-secondary-bottom">Tokopedia</p> 
+              <div>
+                <img src="/images/location.png" id="gambar-location" width="15" height="20">
+                <span clas="nama-lokasi">Jakarta</span>
+                <span class="gaji">Rp. 15jt/bulan</span>
+              </div>
+              <a href="service.html" class="btn btn-primary">Details</a>
             </div>
-            <a href="service.html" class="btn btn-primary">Details</a>
           </div>
         </div>
       </div>
@@ -280,49 +285,32 @@
     </div>
   </div>
 
-  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-lg-3 py-3">
-          <h3>SEOGram</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
-
-          <div class="social-media-button">
-            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-            <a href="#"><span class="mai-logo-instagram"></span></a>
-            <a href="#"><span class="mai-logo-youtube"></span></a>
-          </div>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Company</h5>
-          <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Help & Support</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Contact Us</h5>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">seogram@temporary.com</a>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Newsletter</h5>
-          <p>Get updates, news or events on your mail.</p>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your email..">
-            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-          </form>
-        </div>
+  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);"> 
+    <div class="css-u22cvr">
+      <!-- <div class="contactfooter">
+        <h5>Contact Us</h5>
+        <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
+        <a href="#" class="footer-link">+00 1122 3344 5566</a>
+        <a href="#" class="footer-link">amplopc@gmail.com</a>
+      </div>  -->
+    <div class="vl"></div>
+      <h3 id="footersosmed">Visit Our Social Media</h3>
+      <div class="sosmed">
+        <a href="https://www.facebook.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
+          <img src="/images/facebook.png" alt="Facebook" class="css-11u4aza loaded" width="40" height="40">
+        </a>
+        <a href="https://www.instagram.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
+          <img src="/images/instagram.png" alt="Instagram" class="css-11u4aza loaded" width="40" height="40">
+        </a>
+        <a href="https://www.twitter.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
+          <img src="/images/twitter.png" alt="Twitter" class="css-11u4aza loaded" width="40" height="40">
+        </a>
+        <a href="https://www.youtube.com/user/tokopedia" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
+          <img src="/images/youtube.png" alt="Youtube" class="css-11u4aza loaded" width="40" height="40">
+        </a>
       </div>
-
-      <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
     </div>
+  <div class="copyright">© 2021, Amplop Coklat</div>
   </footer>
 
 <script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
@@ -335,3 +323,5 @@
   
 </body>
 </html>
+
+

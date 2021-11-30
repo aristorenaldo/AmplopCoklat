@@ -1,0 +1,40 @@
+.searchTerm {
+    font-weight: lighter;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-weight: lighter;
+    background-color: transparent;
+    border: none;
+}
+
+.vl {
+    border-left: 2px solid #48444C;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    align-items: center;
+}
+
+.sosmed{
+    position: relative;
+    left: 80%;
+    right: 20%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactfooter{
+    align-items: left;
+}
+
+#footersosmed{
+    text-align: right;
+    color: #48444C;
+    font-size: 20px;
+}
