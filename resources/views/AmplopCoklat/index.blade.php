@@ -34,15 +34,6 @@
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
               <a class="btn btn-primary2 ml-lg-2" href="#">Sign Up</a>
             </li>
           </ul>
@@ -56,13 +47,14 @@
         <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
           <div class="col-md-6 py-5 wow fadeInLeft">
             <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
-            <p id="tagline">Disabilitas Bisa Kerja</p>
+            <p class="tagline">Disabilitas Bisa Kerja</p>
             <div class="search">
               <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
+              <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20"></span>
             </div>
           </div>
           <div class="col-md-62 py-5 wow zoomIn">
-            <div class="img-fluid text-center">
+            <div class="img-fluid mt-5">
               <img src="images/homepic.png" alt="Gambar-Home" width = "490" height = "369">
             </div>
           </div>
@@ -263,6 +255,24 @@
                 <span class="mai-business"></span>
               </div>
               <h5>Bibit</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+              <div class="header mb-3">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Google</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features">
+              <div class="header mb-3">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Gojek</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
             </div>
           </div>
