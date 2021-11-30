@@ -1538,17 +1538,6 @@ a.text-dark:focus {
     margin-bottom: 8px;
 }
 
-.subhead2 {
-    display: block;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #898798;
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-
 .title-section {
     color: #48444C;
 

@@ -33,8 +33,37 @@
     align-items: left;
 }
 
+.subhead2 {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #898798;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.tagline{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 250px;
+    color: #666666;
+}
+
 #footersosmed{
     text-align: right;
     color: #48444C;
     font-size: 20px;
+    left: 80%;
+    right: 20%
+}
+
+.page-section3 {
+    position: relative;
+    padding-top: 80px;
+    color: #898798;
+    overflow: hidden;
 }
