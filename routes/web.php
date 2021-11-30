@@ -47,3 +47,7 @@ Route::get('/daftarloker', function () {
 Route::get('/splashpage', function () {
     return view('AmplopCoklat.splashpage');
 });
+
+Route::get('/melihatinfo', function () {
+    return view('AmplopCoklat.melihatinfo');
+});
