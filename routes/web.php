@@ -28,3 +28,7 @@ Route::get('/detail', function () {
 Route::get('/statusloker', function () {
     return view('AmplopCoklat.statusloker');
 });
+
+Route::get('/search', function () {
+    return view('AmplopCoklat.search');
+});
