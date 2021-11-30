@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('AmplopCoklat.index');
 });
+
+Route::get('/login', function () {
+    return view('AmplopCoklat.login');
+});
+Route::get('/register', function () {
+    return view('AmplopCoklat.register');
+});
+
