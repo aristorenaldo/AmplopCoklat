@@ -411,12 +411,12 @@ progress {
   .logo-search{
     align-items: center;
   }
-.searchTerm {
+
+  .searchTerm {
     width: 30%;
     height: 75%;
     border: 1px solid #B1ADAD;
     padding: 15px;
-    height: 20px;
     border-radius: 5px 5px 5px 5px;
     background-color: rgba(243, 243, 243, 0.5);
     font-weight: lighter;

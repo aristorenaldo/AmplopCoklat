@@ -40,7 +40,9 @@
                 <span clas="nama-lokasi">Bandung</span>
                 <span class="gaji">Rp. 8jt/bulan</span>
               </div>
-              <a href="service.html" class="btn btn-primary">Details</a>
+              <div class = "mt-4"  style="text-align:right">
+                <a class="button-detail" href="service.html">Details</a>
+              </div>
             </div>
           </div>
         </div>
@@ -55,7 +57,9 @@
                 <span clas="nama-lokasi">Jakarta</span>
                 <span class="gaji">Rp. 10jt/bulan</span>
               </div>
-              <a href="service.html" class="btn btn-primary">Details</a>
+              <div class = "mt-4"  style="text-align:right">
+                <a href="service.html" class="button-detail">Details</a>
+              </div>  
             </div>
           </div>
         </div>  
@@ -70,7 +74,9 @@
                 <span clas="nama-lokasi">Jakarta</span>
                 <span class="gaji">Rp. 15jt/bulan</span>
               </div>
-              <a href="service.html" class="btn btn-primary">Details</a>
+              <div class = "mt-4"  style="text-align:right">
+                <a href="service.html" class="button-detail">Details</a>
+              </div>
             </div>
           </div>
         </div>
@@ -200,13 +206,13 @@
   <div class="page-section3">
     <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);"> 
       <div class="css-u22cvr">
-        <!-- <div class="contactfooter">
+        <div class="contactfooter">
           <h5>Contact Us</h5>
           <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
           <a href="#" class="footer-link">+00 1122 3344 5566</a>
           <a href="#" class="footer-link">amplopc@gmail.com</a>
-        </div>  -->
-      <div class="vl"></div>
+        </div> 
+        <div class="vl"></div>
         <h3 id="footersosmed">Visit Our Social Media</h3>
         <div class="sosmed">
           <a href="https://www.facebook.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
