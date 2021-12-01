@@ -82,7 +82,7 @@
         
             <div class="row border-bottom border-dark py-2">
                 <div class="col-md-8 py-auto">
-                    <p class="mb-0">Anggasta Aji</p>
+                    <p class="mb-0">Ayus Tizhar</p>
                 </div>
                 <div class="col-md-4">
                     <a href="" class="btn btn-primary">Form</a>
@@ -91,7 +91,17 @@
             </div>
             <div class="row border-bottom border-dark py-2">
                 <div class="col-md-8 py-auto">
-                    <p class="mb-0">Anggasta Aji</p>
+                    <p class="mb-0">Prambon Ruhayu</p>
+                </div>
+             
+                <div class="col-md-4">
+                    <a href="" class="btn btn-primary">Form</a>
+                    <a href="" class="btn btn-secondary">Berkas</a>
+                </div>
+            </div>
+            <div class="row border-bottom border-dark py-2">
+                <div class="col-md-8 py-auto">
+                    <p class="mb-0">Budi Budidi</p>
                 </div>
                 <div class="col-md-4">
                     <a href="" class="btn btn-primary">Form</a>
