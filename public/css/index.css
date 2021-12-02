@@ -10,8 +10,8 @@
 }
 
 .vl {
-    border-left: 2px solid #48444C;
-    height: 50px;
+    border-left: 3px solid #48444C;
+    height: 80px;
     position: absolute;
     left: 50%;
     bottom: 20%;
@@ -19,18 +19,24 @@
 }
 
 .sosmed{
-    position: relative;
-    left: 80%;
-    right: 20%;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 95px;
+    margin-right: 120px;
+    letter-spacing: 5px;
 }
 
 .copyright{
-    text-align: center;
     margin-top: 20px;
+    color: #48444C;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .contactfooter{
     align-items: left;
+    margin-right: 95px;
+    margin-left: 120px;
 }
 
 .subhead2 {
@@ -57,9 +63,9 @@
     text-align: right;
     color: #48444C;
     font-size: 20px;
-    margin-right: 95px;
-    /* left: 60%;
-    right: 40%; */
+    margin-left: 95px;
+    margin-right: 120px;
+    font-weight: 500;
 }
 
 .page-section3 {
@@ -80,4 +86,13 @@
 #button-about {
     margin-top: 0px;
     margin-left: 0px;
+}
+
+#kontak{
+    color: #48444C;
+    font-weight: 500;
+}
+
+.ketkontak{
+    color: #736E6A;
 }

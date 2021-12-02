@@ -19,7 +19,11 @@
           </div>
         </div>
       </div>
-      <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+      <div>
+        <a href="#about" class="btn-scroll" data-role="smoothscroll">
+          <img src="/images/down-arrow.png" alt="panah-bawah" width ="20" height = "">
+        </a>
+      </div>
     </div>
   </div>
   <div class="page-section">
@@ -40,9 +44,9 @@
                 <span clas="nama-lokasi">Bandung</span>
                 <span class="gaji">Rp. 8jt/bulan</span>
               </div>
-              <div class = "mt-4"  style="text-align:right">
-                <a class="button-detail" href="service.html">Details</a>
-              </div>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
+              </div>     
             </div>
           </div>
         </div>
@@ -57,9 +61,9 @@
                 <span clas="nama-lokasi">Jakarta</span>
                 <span class="gaji">Rp. 10jt/bulan</span>
               </div>
-              <div class = "mt-4"  style="text-align:right">
-                <a href="service.html" class="button-detail">Details</a>
-              </div>  
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
+              </div>
             </div>
           </div>
         </div>  
@@ -74,8 +78,8 @@
                 <span clas="nama-lokasi">Jakarta</span>
                 <span class="gaji">Rp. 15jt/bulan</span>
               </div>
-              <div class = "mt-4"  style="text-align:right">
-                <a href="service.html" class="button-detail">Details</a>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
               </div>
             </div>
           </div>
@@ -205,34 +209,36 @@
 
   <div class="page-section3">
     <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);"> 
-      <div class="css-u22cvr">
-        <div class="contactfooter">
-          <h5>Contact Us</h5>
-          <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">amplopc@gmail.com</a>
-        </div> 
+      <div class="row">
+        <div class="col align-items-start">
+          <div class="contactfooter">
+            <h5 id="kontak">Contact Us</h5>
+            <p class="ketkontak">Jl.Soekarno Hatta No. 1A, Jakarta</p>
+            <p class="ketkontak">+00 1122 3344 5566</p>
+            <p class="ketkontak">amplopc@gmail.com</p>
+          </div> 
+        </div>  
         <div class="vl"></div>
-        <h3 id="footersosmed">Visit Our Social Media</h3>
-        <div class="sosmed">
-          <a href="https://www.facebook.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
-            <img src="/images/facebook.png" alt="Facebook" class="css-11u4aza loaded" width="40" height="40">
-          </a>
-          <a href="https://www.instagram.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
-            <img src="/images/instagram.png" alt="Instagram" class="css-11u4aza loaded" width="40" height="40">
-          </a>
-          <a href="https://www.twitter.com/tokopedia/" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
-            <img src="/images/twitter.png" alt="Twitter" class="css-11u4aza loaded" width="40" height="40">
-          </a>
-          <a href="https://www.youtube.com/user/tokopedia" target="_blank" rel="noopener noreferrer" class="css-17dtaj">
-            <img src="/images/youtube.png" alt="Youtube" class="css-11u4aza loaded" width="40" height="40">
-          </a>
+        <div class="col align-items-end">
+          <h3 id="footersosmed">Visit Our Social Media</h3>
+          <div class="sosmed">
+            <a href="https://www.facebook.com/tokopedia/">
+              <img src="/images/facebook.png" alt="Facebook" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com/tokopedia/">
+              <img src="/images/instagram.png" alt="Instagram" width="40" height="40">
+            </a>
+            <a href="https://www.twitter.com/tokopedia/">
+              <img src="/images/twitter.png" alt="Twitter" width="40" height="40">
+            </a>
+            <a href="https://www.youtube.com/user/tokopedia">
+              <img src="/images/youtube.png" alt="Youtube" width="40" height="40">
+            </a>
+          </div>
         </div>
       </div>
-    <div class="copyright">© 2021, Amplop Coklat</div>
+      <div class="copyright text-center">© 2021, Amplop Coklat</div>
     </footer>
   </div>
 
 @endsection
-
-

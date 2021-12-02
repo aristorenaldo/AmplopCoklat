@@ -40,7 +40,7 @@
                     <label for="nomor" class="sr-only">Nomor Telephone</label>
                     <input type="tel" name="nomor" id="nomor" class="form-control" placeholder="Nomor Hp">
                   </div>
-                  <input name="login" id="login" class="btn btn-block login-btn" type="button" value="Login">
+                  <input name="Register" id="login" class="btn btn-block login-btn" type="button" value="Register">
                 </form>
                 <span>
                 <p class="login-card-footer-text">Already have an account? <a href="#!" class="text-reset">Login here</a></p>

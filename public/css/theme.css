@@ -701,7 +701,7 @@ a.text-dark:focus {
 .btn-danger:hover,
 .btn-dark:hover {
     color: #fff;
-    background-color: #645F88;
+    background-color: #A39386;
     border-color: transparent;
 }
 
@@ -722,20 +722,20 @@ a.text-dark:focus {
 .btn-dark:focus,
 .btn-dark.focus {
     color: #fff;
-    background-color: #8e8aad;
+    background-color: #A39386;
     border-color: transparent;
     box-shadow: none;
 }
 
 .btn-outline-primary {
-    color: #6C55F9;
-    border-color: #6C55F9;
+    /* color: #6C55F9;
+    border-color: #6C55F9; */
 }
 
 .btn-outline-primary:hover {
-    color: #fff;
+    /* color: #fff;
     background-color: #6C55F9;
-    border-color: #6C55F9;
+    border-color: #6C55F9; */
 }
 
 .btn-outline-primary:focus,
@@ -753,8 +753,8 @@ a.text-dark:focus {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #6C55F9;
-    border-color: #6C55F9;
+    /* background-color: #6C55F9;
+    border-color: #6C55F9; */
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -1483,7 +1483,7 @@ a.text-dark:focus {
     height: 40px;
     line-height: 44px;
     background-color: #fff;
-    color: #645F88;
+    color: #A39386;
     text-align: center;
     border-radius: 40px;
     box-shadow: 0 2px 6px rgba(100, 95, 136, 0.24);
@@ -1492,7 +1492,7 @@ a.text-dark:focus {
 
 .page-banner.home-banner .btn-scroll:hover {
     text-decoration: none;
-    background-color: #6C55F9;
+    background-color: #A39386;
     color: #fff;
 }
 
