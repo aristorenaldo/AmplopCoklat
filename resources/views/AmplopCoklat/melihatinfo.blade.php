@@ -12,6 +12,7 @@
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
     <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/index.css') }}" rel="stylesheet">
 
     <title>AmplopCoklat</title>
 
@@ -76,87 +77,76 @@
     </div>
     </header>
 
-    <div class="container mt-4">
-        <h3>Pendaftar:</h3>
-        <div class="col-lg-12 p-5 rounded-top border">
-        
-            <div class="row border-bottom border-dark py-2">
-                <div class="col-md-8 py-auto">
-                    <p class="mb-0">Ayus Tizhar</p>
-                </div>
-                <div class="col-md-4">
-                    <a href="" class="btn btn-primary">Form</a>
-                    <a href="" class="btn btn-secondary">Berkas</a>
-                </div>
-            </div>
-            <div class="row border-bottom border-dark py-2">
-                <div class="col-md-8 py-auto">
-                    <p class="mb-0">Prambon Ruhayu</p>
-                </div>
-             
-                <div class="col-md-4">
-                    <a href="" class="btn btn-primary">Form</a>
-                    <a href="" class="btn btn-secondary">Berkas</a>
-                </div>
-            </div>
-            <div class="row border-bottom border-dark py-2">
-                <div class="col-md-8 py-auto">
-                    <p class="mb-0">Budi Budidi</p>
-                </div>
-                <div class="col-md-4">
-                    <a href="" class="btn btn-primary">Form</a>
-                    <a href="" class="btn btn-secondary">Berkas</a>
-                </div>
-            </div>  
+    <div class="page-section2">
+        <div class="container mt-4">
+            <h3>Pendaftar:</h3>
+            <div class="col-lg-12 p-5 rounded-top border">
             
-        </div>
-    </div>
-    <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-3 py-3">
-                    <h3>SEOGram</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet,
-                        repellendus eius blanditiis in iusto eligendi iure.</p>
-
-                    <div class="social-media-button">
-                        <a href="#"><span class="mai-logo-facebook-f"></span></a>
-                        <a href="#"><span class="mai-logo-twitter"></span></a>
-                        <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-                        <a href="#"><span class="mai-logo-instagram"></span></a>
-                        <a href="#"><span class="mai-logo-youtube"></span></a>
+                <div class="row border-bottom border-dark py-2">
+                    <div class="col-md-8 py-auto">
+                        <p class="mb-0">Ayus Tizhar</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="" class="btn btn-primary">Form</a>
+                        <a href="" class="btn btn-secondary">Berkas</a>
                     </div>
                 </div>
-                <div class="col-lg-3 py-3">
-                    <h5>Company</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Help & Support</a></li>
-                    </ul>
+                <div class="row border-bottom border-dark py-2">
+                    <div class="col-md-8 py-auto">
+                        <p class="mb-0">Prambon Ruhayu</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="" class="btn btn-primary">Form</a>
+                        <a href="" class="btn btn-secondary">Berkas</a>
+                    </div>
                 </div>
-                <div class="col-lg-3 py-3">
-                    <h5>Contact Us</h5>
-                    <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-                    <a href="#" class="footer-link">+00 1122 3344 5566</a>
-                    <a href="#" class="footer-link">seogram@temporary.com</a>
+                <div class="row border-bottom border-dark py-2">
+                    <div class="col-md-8 py-auto">
+                        <p class="mb-0">Budi Budidi</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="" class="btn btn-primary">Form</a>
+                        <a href="" class="btn btn-secondary">Berkas</a>
+                    </div>
+                </div>  
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="page-section3">
+        <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);"> 
+            <div class="row">
+                <div class="col align-items-start">
+                <div class="contactfooter">
+                    <h5 id="kontak">Contact Us</h5>
+                    <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
+                    <p>+00 1122 3344 5566</p>
+                    <p>amplopc@gmail.com</p>
+                </div> 
+                </div>  
+                <div class="vl"></div>
+                <div class="col align-items-end">
+                <h3 id="footersosmed">Visit Our Social Media</h3>
+                <div class="sosmed">
+                    <a href="https://www.facebook.com/tokopedia/">
+                    <img src="/images/facebook.png" alt="Facebook" width="40" height="40">
+                    </a>
+                    <a href="https://www.instagram.com/tokopedia/">
+                    <img src="/images/instagram.png" alt="Instagram" width="40" height="40">
+                    </a>
+                    <a href="https://www.twitter.com/tokopedia/">
+                    <img src="/images/twitter.png" alt="Twitter" width="40" height="40">
+                    </a>
+                    <a href="https://www.youtube.com/user/tokopedia">
+                    <img src="/images/youtube.png" alt="Youtube" width="40" height="40">
+                    </a>
                 </div>
-                <div class="col-lg-3 py-3">
-                    <h5>Newsletter</h5>
-                    <p>Get updates, news or events on your mail.</p>
-                    <form action="#">
-                        <input type="text" class="form-control" placeholder="Enter your email..">
-                        <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-                    </form>
                 </div>
             </div>
-
-            <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and
-                develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
-        </div>
-    </footer>
+            <div class="copyright text-center">© 2021, Amplop Coklat</div>
+        </footer>
+    </div>
 
     <script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
 

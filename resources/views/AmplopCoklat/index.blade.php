@@ -213,9 +213,9 @@
         <div class="col align-items-start">
           <div class="contactfooter">
             <h5 id="kontak">Contact Us</h5>
-            <p class="ketkontak">Jl.Soekarno Hatta No. 1A, Jakarta</p>
-            <p class="ketkontak">+00 1122 3344 5566</p>
-            <p class="ketkontak">amplopc@gmail.com</p>
+            <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
+            <p>+00 1122 3344 5566</p>
+            <p>amplopc@gmail.com</p>
           </div> 
         </div>  
         <div class="vl"></div>
