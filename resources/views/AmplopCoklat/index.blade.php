@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('master')
+@section('contents')
+    
 
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
@@ -15,62 +12,35 @@
 <body>
 
   <!-- Back to top button -->
-  <div class="back-to-top"></div>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
-      <div class="container">
-        <a href="#" id="judul" class="navbar-brand">AmplopCoklat</a>
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse" id="navbarContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="page-banner home-banner">
-        <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
-          <div class="col-md-12 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
-            <p id="tagline">Disabilitas Bisa Kerja</p>
-            <img src="disability.png" alt="Gambar Disability">
-            <div class="search">
-              <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
-            </div>
+   
+  <div class="container">
+    <div class="page-banner home-banner">
+      <div id="banner" class="row align-items-center flex-wrap-reverse h-100">
+        <div class="col-md-6 py-5 wow fadeInLeft">
+          <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
+          <p class="tagline">Disabilitas Bisa Kerja</p>
+          <div class="search">
+            <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
+            <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20"></span>
           </div>
         </div>
-        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+        <div class="col-md-62 py-5 wow zoomIn">
+          <div class="img-fluid mt-5">
+            <img src="images/homepic.png" alt="Gambar-Home" width = "490" height = "369">
+          </div>
+        </div>
+      </div>
+      <div>
+        <a href="#about" class="btn-scroll" data-role="smoothscroll">
+          <img src="/images/down-arrow.png" alt="panah-bawah" width ="20" height = "">
+        </a>
       </div>
     </div>
-  </header>
-
+  </div>
   <div class="page-section">
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="header">
@@ -79,32 +49,49 @@
             <div class="body">
               <img id="logo-google" src="/images/Google.png">
               <h5 class="text-secondary">UI Designer</h5>
-              <p class="text-secondary-bottom">Google LLC</p>
-              <a href="service.html" class="btn btn-primary">Details</a>
+              <p class="text-secondary-bottom">Google LLC</p> 
+              <div>
+                <img src="/images/location.png" id="gambar-location" width="15" height="20">
+                <span clas="nama-lokasi">Bandung</span>
+                <span class="gaji">Rp. 8jt/bulan</span>
+              </div>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
+              </div>     
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
-            <div class="header">
-              <img src="../assets/img/services/service-2.svg" alt="">
-            </div>
             <div class="body">
-              <h5 class="text-secondary">Content Marketing</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <img id="logo-google" src="/images/gojek.png">
+              <h5 class="text-secondary">Android Developer</h5>
+              <p class="text-secondary-bottom">Gojek</p> 
+              <div>
+                <img src="/images/location.png" id="gambar-location" width="15" height="20">
+                <span clas="nama-lokasi">Jakarta</span>
+                <span class="gaji">Rp. 10jt/bulan</span>
+              </div>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
-            <div class="header">
-              <img src="../assets/img/services/service-3.svg" alt="">
-            </div>
             <div class="body">
-              <h5 class="text-secondary">Keyword Research</h5>
-              <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-              <a href="service.html" class="btn btn-primary">Read More</a>
+              <img id="logo-google" src="/images/tokopedia.png">
+              <h5 class="text-secondary">Data Engineer</h5>
+              <p class="text-secondary-bottom">Tokopedia</p> 
+              <div>
+                <img src="/images/location.png" id="gambar-location" width="15" height="20">
+                <span clas="nama-lokasi">Jakarta</span>
+                <span class="gaji">Rp. 15jt/bulan</span>
+              </div>
+              <div class="text-right">
+                <button type="button" class="btn btn-primary mt-4">Details</button>
+              </div>
             </div>
           </div>
         </div>
@@ -193,18 +180,19 @@
   </div>
 
   <div class="page-section bg-light">
+  <div class="page-section2">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="subhead">Our services</div>
         <h2 class="title-section">How SEO Team Can Help</h2>
         <div class="divider mx-auto"></div>
-      </div>
-
         <div class="row">
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -213,7 +201,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -222,7 +212,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -231,7 +223,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -240,7 +234,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -249,7 +245,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -258,7 +256,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -267,7 +267,9 @@
           <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
             <div class="features">
               <div class="header mb-3">
-                <span class="mai-business"></span>
+                <span> 
+                  <img src="/images/company.png" alt="logo-perusahaan" width="20" height = "20">
+                </span>
               </div>
               <h5>OnSite SEO</h5>
               <p>We analyse your website's structure, internal architecture & other key</p>
@@ -407,58 +409,38 @@
   </div> <!-- .page-section -->
 
 
-  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-lg-3 py-3">
-          <h3>SEOGram</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
-
-          <div class="social-media-button">
-            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#"><span class="mai-logo-twitter"></span></a>
-            <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-            <a href="#"><span class="mai-logo-instagram"></span></a>
-            <a href="#"><span class="mai-logo-youtube"></span></a>
+  <div class="page-section3">
+    <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);"> 
+      <div class="row">
+        <div class="col align-items-start">
+          <div class="contactfooter">
+            <h5 id="kontak">Contact Us</h5>
+            <p class="ketkontak">Jl.Soekarno Hatta No. 1A, Jakarta</p>
+            <p class="ketkontak">+00 1122 3344 5566</p>
+            <p class="ketkontak">amplopc@gmail.com</p>
+          </div> 
+        </div>  
+        <div class="vl"></div>
+        <div class="col align-items-end">
+          <h3 id="footersosmed">Visit Our Social Media</h3>
+          <div class="sosmed">
+            <a href="https://www.facebook.com/tokopedia/">
+              <img src="/images/facebook.png" alt="Facebook" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com/tokopedia/">
+              <img src="/images/instagram.png" alt="Instagram" width="40" height="40">
+            </a>
+            <a href="https://www.twitter.com/tokopedia/">
+              <img src="/images/twitter.png" alt="Twitter" width="40" height="40">
+            </a>
+            <a href="https://www.youtube.com/user/tokopedia">
+              <img src="/images/youtube.png" alt="Youtube" width="40" height="40">
+            </a>
           </div>
         </div>
-        <div class="col-lg-3 py-3">
-          <h5>Company</h5>
-          <ul class="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Help & Support</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Contact Us</h5>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-          <a href="#" class="footer-link">+00 1122 3344 5566</a>
-          <a href="#" class="footer-link">seogram@temporary.com</a>
-        </div>
-        <div class="col-lg-3 py-3">
-          <h5>Newsletter</h5>
-          <p>Get updates, news or events on your mail.</p>
-          <form action="#">
-            <input type="text" class="form-control" placeholder="Enter your email..">
-            <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-          </form>
-        </div>
       </div>
+      <div class="copyright text-center">© 2021, Amplop Coklat</div>
+    </footer>
+  </div>
 
-      <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
-    </div>
-  </footer>
-
-<script type="text/javascript" src="{{ asset('js/theme.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/google-maps.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-  
-</body>
-</html>
+@endsection

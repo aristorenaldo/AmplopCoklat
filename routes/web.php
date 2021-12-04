@@ -24,6 +24,7 @@ Route::get('/index', function () {
 Route::get('/login', function () {
     return view('AmplopCoklat.login');
 });
+
 Route::get('/register', function () {
     return view('AmplopCoklat.register');
 });
@@ -35,6 +36,27 @@ Route::get('/detail', function () {
 Route::get('/statusloker', function () {
     return view('AmplopCoklat.statusloker');
 });
+
+Route::get('/search', function () {
+    return view('AmplopCoklat.search');
+});
+
 Route::get('/daftarloker', function () {
     return view('AmplopCoklat.daftarloker');
+});
+
+Route::get('/splashpage', function () {
+    return view('AmplopCoklat.splashpage');
+});
+
+Route::get('/melihatinfo', function () {
+    return view('AmplopCoklat.melihatinfo');
+});
+
+Route::get('/seleksiberkas', function () {
+    return view('AmplopCoklat.seleksiberkas');
+});
+
+Route::get('/editprofile', function () {
+    return view('AmplopCoklat.editProfile');
 });
