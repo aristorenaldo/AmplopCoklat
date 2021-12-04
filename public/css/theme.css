@@ -168,7 +168,7 @@ a.text-accent:focus {
 }
 
 .text-secondary {
-    color: #615C62 !important;
+    color: #454545 !important;
     font-weight: bold;
 }
 
@@ -282,7 +282,7 @@ a.text-dark:focus {
 }
 
 .border-dark {
-    border-color: #2D2B3A !important;
+    border-color: #B4B4B4!important;
 }
 
 /* Social Color */
@@ -491,8 +491,9 @@ a.text-dark:focus {
 
 .btn-secondary {
     color: #fff;
-    background-color: #645F88;
+    background-color: #CBAF8C;
     border-color: transparent;
+    border-radius: 9px;
 }
 
 .btn-secondary.disabled,
