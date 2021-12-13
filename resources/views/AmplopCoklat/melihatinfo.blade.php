@@ -48,9 +48,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary ml-lg-2" href="#">Sign Up</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -81,7 +78,6 @@
         <div class="container mt-4">
             <h3>Pendaftar:</h3>
             <div class="col-lg-12 p-5 rounded-top border">
-            
                 <div class="row border-bottom border-dark py-2">
                     <div class="col-md-8 py-auto">
                         <p class="mb-0">Ayus Tizhar</p>

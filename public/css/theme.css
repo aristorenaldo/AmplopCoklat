@@ -10,7 +10,7 @@
 :root {
     --primary: #6C55F9;
     --accent: #FF3D85;
-    --secondary: #645F88;
+    --secondary: #695C69;
     --success: #35bb78;
     --info: #05B4E1;
     --warning: #FAC14D;
@@ -490,8 +490,8 @@ a.text-dark:focus {
 }
 
 .btn-secondary {
-    color: #fff;
-    background-color: #CBAF8C;
+    color: #695C56;
+    background-color: #D3CBC5;
     border-color: transparent;
     border-radius: 9px;
 }
@@ -1459,7 +1459,7 @@ a.text-dark:focus {
     margin-bottom: 16px;
     height: 320px;
     background-color: #D3CBC5;
-    color: #645F88;
+    color: #695C56;
     border-radius: 30px;
     z-index: 10;
 }
