@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +22,7 @@ Route::get('/index', function () {
     return view('AmplopCoklat.index');
 });
 
-Route::get('/login', function () {
+Route::get('/login1', function () {
     return view('AmplopCoklat.login');
 });
 
@@ -60,3 +61,8 @@ Route::get('/seleksiberkas', function () {
 Route::get('/editprofile', function () {
     return view('AmplopCoklat.editProfile');
 });
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

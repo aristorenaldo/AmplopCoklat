@@ -6,6 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Scripts -->
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
+    <script src="{{ asset('js/theme.js') }}" defer></script>
+
+    <script src="{{ asset('js/google-maps.js') }}" defer></script>
+
+    <script src="{{ asset('js/jquery-3.5.1.min.js') }}" defer></script>
+
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}" defer></script>
+
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
 
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
@@ -31,7 +43,7 @@
                 <div class="navbar-collapse collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="{{route('home')}}">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -45,9 +57,30 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
+                        @guest
                         <li class="nav-item">
-                            <a class="btn btn-primary ml-lg-2" href="#">Sign Up</a>
+                            <a class="btn btn-primary ml-lg-2" href="{{route('login')}}">Login</a>
                         </li>
+                        @else
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown">
+                                {{Auth::user()->username}}
+                            </button>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+                            </div>
+                            
+                        </li>
+                        @endguest
                     </ul>
                 </div>
             </div>
@@ -64,5 +97,4 @@
 
     <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>
-
 </html>

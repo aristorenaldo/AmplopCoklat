@@ -174,7 +174,7 @@ a.text-accent:focus {
 
 a.text-secondary:hover,
 a.text-secondary:focus {
-    color: #59547c !important;
+    color: #615C62 !important;
 }
 
 .text-success {
@@ -282,7 +282,7 @@ a.text-dark:focus {
 }
 
 .border-dark {
-    border-color: #B4B4B4!important;
+    border-color: #2D2B3A!important;
 }
 
 /* Social Color */

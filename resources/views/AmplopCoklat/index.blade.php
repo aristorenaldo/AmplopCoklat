@@ -1,14 +1,6 @@
 @extends('master')
 @section('contents')
     
-
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/maicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme.css') }}" rel="stylesheet">
-
-    <title>AmplopCoklat</title>
-
-</head>
 <body>
 
   <!-- Back to top button -->
@@ -43,9 +35,6 @@
       <div class="row" >
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
-            <div class="header">
-              <img src="../assets/img/services/service-1.svg" alt="">
-            </div>
             <div class="body">
               <img id="logo-google" src="/images/Google.png">
               <h5 class="text-secondary">UI Designer</h5>
@@ -121,66 +110,7 @@
   </div> <!-- .page-section -->
 
   <!-- LOWONGAN KERJA -->
-  <div class="page-section">
-    <div class="container">
-      <div class="text-center wow fadeInUp">
-        <div class="subhead">Our Blog</div>
-        <h2 class="title-section">Read Latest News</h2>
-        <div class="divider mx-auto"></div>
-      </div>
 
-      <div class="row mt-5">
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-1.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-2.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 py-3 wow fadeInUp">
-          <div class="card-blog">
-            <div class="header">
-              <div class="post-thumb">
-                <img src="../assets/img/blog/blog-3.jpg" alt="">
-              </div>
-            </div>
-            <div class="body">
-              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
-              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 mt-4 text-center wow fadeInUp">
-          <a href="blog.html" class="btn btn-primary">View More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="page-section bg-light">
-  <div class="page-section2">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="subhead">Our services</div>
@@ -415,25 +345,25 @@
         <div class="col align-items-start">
           <div class="contactfooter">
             <h5 id="kontak">Contact Us</h5>
-            <p>Jl.Soekarno Hatta No. 1A, Jakarta</p>
-            <p>+00 1122 3344 5566</p>
-            <p>amplopc@gmail.com</p>
+            <p class="ketkontak">Jl.Soekarno Hatta No. 1A, Jakarta</p>
+            <p class="ketkontak">+00 1122 3344 5566</p>
+            <p class="ketkontak">amplopc@gmail.com</p>
           </div> 
         </div>  
         <div class="vl"></div>
         <div class="col align-items-end">
           <h3 id="footersosmed">Visit Our Social Media</h3>
           <div class="sosmed">
-            <a href="https://www.facebook.com/tokopedia/">
+            <a href="https://www.facebook.com">
               <img src="/images/facebook.png" alt="Facebook" width="40" height="40">
             </a>
-            <a href="https://www.instagram.com/tokopedia/">
+            <a href="https://www.instagram.com">
               <img src="/images/instagram.png" alt="Instagram" width="40" height="40">
             </a>
-            <a href="https://www.twitter.com/tokopedia/">
+            <a href="https://www.twitter.com">
               <img src="/images/twitter.png" alt="Twitter" width="40" height="40">
             </a>
-            <a href="https://www.youtube.com/user/tokopedia">
+            <a href="https://www.youtube.com">
               <img src="/images/youtube.png" alt="Youtube" width="40" height="40">
             </a>
           </div>
