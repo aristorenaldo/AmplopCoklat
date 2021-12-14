@@ -15,6 +15,10 @@ class CreateLokersTable extends Migration
     {
         Schema::create('lokers', function (Blueprint $table) {
             $table->id();
+            $table->string('pekerjaan');
+            $table->foreignId('perusahaan_id')->constrained()->onDelete('cascade');
+            $table->string('lokasi');
+            $table->string('deskripsi');
             $table->timestamps();
         });
     }
