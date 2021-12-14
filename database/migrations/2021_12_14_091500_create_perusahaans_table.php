@@ -14,8 +14,16 @@ class CreatePerusahaansTable extends Migration
     public function up()
     {
         Schema::create('perusahaans', function (Blueprint $table) {
-            $table->id();
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
+            $table->string('nama');
+            $table->string('kontak');
+            $table->string('website')->nullable();
+            $table->string('lokasi');
+            $table->string('deskripsi');
+            $table->string('bidang');
+
+            $table->primary('user_id');
         });
     }
 
