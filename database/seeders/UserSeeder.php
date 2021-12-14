@@ -46,7 +46,13 @@ class UserSeeder extends Seeder
                 'email' => 'sule@dummy.com',
                 'password' => Hash::make('password123'),
                 'role' => 1, // perusahaan
-            ] 
+            ], 
+            [
+                'username' => 'William Tanuwijaya',
+                'email' => 'tanu@dummy.com',
+                'password' => Hash::make('password123'),
+                'role' => 1, // perusahaan
+            ]
             ]);
     }
 }
