@@ -22,6 +22,7 @@ class CreatePerusahaansTable extends Migration
             $table->string('lokasi');
             $table->text('deskripsi');
             $table->string('bidang');
+            $table->string('logo');
 
             $table->primary('user_id');
         });

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 
 class Loker extends Model
 {
@@ -13,16 +14,23 @@ class Loker extends Model
         'pekerjaan',
         'perusahaan_id',
         'lokasi',
-        'deskripsi'
+        'deskripsi',
+        'tgl_tutup'
     ];
 
     public function perusahaan()
     {
-        return $this->belongsTo(Perusahaan::class);
+        return $this->belongsTo(Perusahaan::class,'perusahaan_id');
     }
 
     public function persyaratan()
     {
         return $this->hasMany(Persyaratan::class);
+    }
+
+    public function getTglTutup()
+    {
+        return Carbon::parse($this->attributes['tgl_tutup'])
+            ->translatedFormat('l, d F Y');
     }
 }

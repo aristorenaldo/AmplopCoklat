@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
+use App\Http\Controllers\LokerController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,3 +68,5 @@ Route::get('/editprofile', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/loker/{id}', [LokerController::class, 'detail'])->name('loker.detail');

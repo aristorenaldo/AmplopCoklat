@@ -16,13 +16,14 @@ class PerusahaanSeeder extends Seeder
     {
         DB::table('perusahaans')->insert([
             [
-                'user_id' => '2',
+                'user_id' => '2', //PK Fk->user edward
                 'nama' => 'Google LLC',
                 'kontak' => '0315314771',
                 'website' => 'www.google.com',
                 'lokasi' => 'Bandung',
                 'deskripsi' => 'Google adalah perusahaan multinasional Amerika Serikat yang berkekhususan pada jasa dan produk Internet seperti pencarian, komputasi web, perangkat lunak, dan periklanan daring.',
-                'bidang' => 'Teknologi'
+                'bidang' => 'Teknologi',
+                'logo' => 'images/perusahaan/Google.png'
             ],
             [
                 'user_id' => '4',
@@ -31,7 +32,8 @@ class PerusahaanSeeder extends Seeder
                 'website' => 'www.tesla.com',
                 'lokasi' => 'Jakarta',
                 'deskripsi' => 'Tesla, Inc. adalah sebuah perusahaan otomotif dan penyimpanan energi asal Amerika Serikat yang didirikan oleh Elon Musk, Martin Eberhard, Marc Tarpenning, JB Straubel dan Ian Wright, serta berbasis di Palo Alto, California.',
-                'bidang' => 'Otomotif'
+                'bidang' => 'Otomotif',
+                'logo' => 'images/perusahaan/Google.png'
             ],
             [
                 'user_id' => '6',
@@ -40,7 +42,8 @@ class PerusahaanSeeder extends Seeder
                 'website' => 'www.tokopedia.com',
                 'lokasi' => 'Malang',
                 'deskripsi' => 'Tokopedia merupakan perusahaan perdagangan elektronik atau sering disebut toko daring. Sejak didirikan pada tahun 2009, Tokopedia telah bertransformasi menjadi sebuah unicorn yang berpengaruh tidak hanya di Indonesia tetapi juga di Asia Tenggara.',
-                'bidang' => 'Elektronik Industri'
+                'bidang' => 'Elektronik Industri',
+                'logo' => 'images/perusahaan/Google.png'
             ],
 
         ]);

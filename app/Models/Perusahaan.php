@@ -16,7 +16,8 @@ class Perusahaan extends Model
         'website',
         'lokasi',
         'deskripsi',
-        'bidang'
+        'bidang',
+        'logo'
     ];
 
     public function Loker()

@@ -17,10 +17,11 @@ class LokerSeeder extends Seeder
         //
         DB::table('lokers')->insert([
             [
-                'perusahaan_id' => '2',
+                'perusahaan_id' => '2', //FK->perusahaan google
                 'pekerjaan' => 'UI Designer',
                 'lokasi' => 'Bandung',
-                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Google Indonesia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Google Indonesia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.'
+                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Google Indonesia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Google Indonesia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'tgl_tutup' => '2022/11/28'
             ],
             [
                 'perusahaan_id' => '6',

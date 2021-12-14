@@ -19,6 +19,7 @@ class CreateLokersTable extends Migration
             $table->unsignedBigInteger('perusahaan_id');
             $table->string('lokasi');
             $table->text('deskripsi');
+            $table->date('tgl_tutup');
             $table->timestamps();
             $table->foreign('perusahaan_id')->references('user_id')->on('perusahaans')->cascadeOnDelete();
         });
