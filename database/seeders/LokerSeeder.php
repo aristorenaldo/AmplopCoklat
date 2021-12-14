@@ -42,6 +42,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Full Stack Engineer',
                 'lokasi' => 'Jakarta',
                 'deskripsi' => 'Tingkatkan sistem back-end kami yang sudah ada yang berjalan di cloud serta memantau dan menanggapi masalah produk yang dilaporkan dari sumber internal dan eksternal. Tidak hanya itu, kamu harus menganalisis masalah aplikasi, sistem, dan infrastruktur yang kompleks.',
+                'tgl_tutup' => '2022/11/28'
             ],
             [
                 'perusahaan_id' => '4',
