@@ -27,13 +27,15 @@ class LokerSeeder extends Seeder
                 'perusahaan_id' => '6',
                 'pekerjaan' => 'UI Designer',
                 'lokasi' => 'Jakarta Pusat',
-                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.'
+                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'tgl_tutup' => '2022/11/28'
             ],
             [
                 'perusahaan_id' => '6',
                 'pekerjaan' => 'Data Scientist',
                 'lokasi' => 'Jakarta Pusat',
-                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.'
+                'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'tgl_tutup' => '2022/11/28'
             ],
         ]);
     }

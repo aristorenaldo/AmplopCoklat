@@ -33,7 +33,7 @@ class PerusahaanSeeder extends Seeder
                 'lokasi' => 'Jakarta',
                 'deskripsi' => 'Tesla, Inc. adalah sebuah perusahaan otomotif dan penyimpanan energi asal Amerika Serikat yang didirikan oleh Elon Musk, Martin Eberhard, Marc Tarpenning, JB Straubel dan Ian Wright, serta berbasis di Palo Alto, California.',
                 'bidang' => 'Otomotif',
-                'logo' => 'images/perusahaan/Google.png'
+                'logo' => 'images/perusahaan/Tesla.png'
             ],
             [
                 'user_id' => '6',
@@ -43,9 +43,8 @@ class PerusahaanSeeder extends Seeder
                 'lokasi' => 'Malang',
                 'deskripsi' => 'Tokopedia merupakan perusahaan perdagangan elektronik atau sering disebut toko daring. Sejak didirikan pada tahun 2009, Tokopedia telah bertransformasi menjadi sebuah unicorn yang berpengaruh tidak hanya di Indonesia tetapi juga di Asia Tenggara.',
                 'bidang' => 'Elektronik Industri',
-                'logo' => 'images/perusahaan/Google.png'
+                'logo' => 'images/perusahaan/Tokopedia.png'
             ],
-
         ]);
     }
 }
