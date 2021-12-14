@@ -40,7 +40,13 @@ class UserSeeder extends Seeder
                 'email' => 'musk@dummy.com',
                 'password' => Hash::make('password123'),
                 'role' => 1, // perusahaan
-            ]
+            ],
+            [
+                'username' => 'Sule',
+                'email' => 'sule@dummy.com',
+                'password' => Hash::make('password123'),
+                'role' => 1, // perusahaan
+            ] 
             ]);
     }
 }
