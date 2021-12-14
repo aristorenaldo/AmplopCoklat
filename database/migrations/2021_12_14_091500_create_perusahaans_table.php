@@ -20,7 +20,7 @@ class CreatePerusahaansTable extends Migration
             $table->string('kontak');
             $table->string('website')->nullable();
             $table->string('lokasi');
-            $table->string('deskripsi');
+            $table->text('deskripsi');
             $table->string('bidang');
 
             $table->primary('user_id');
