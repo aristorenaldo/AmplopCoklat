@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             // RoleSeeder::class,
             UserSeeder::class,
             PelamarSeeder::class,
-            Perusahaan::class,
+            PerusahaanSeeder::class,
             // DokterSeeder::class,
             // ArtikelSeeder::class,
             // VaksinasiSeeder::class,   
