@@ -16,7 +16,7 @@ class PerusahaanSeeder extends Seeder
     {
         DB::table('perusahaans')->insert([
             [
-                'user_id' => '1',
+                'user_id' => '2',
                 'nama' => 'Google LLC',
                 'kontak' => '0315314771',
                 'website' => 'www.google.com',
