@@ -21,6 +21,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'UI Designer',
                 'lokasi' => 'Bandung',
                 'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Google Indonesia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Google Indonesia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'gaji' => '8000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -28,6 +29,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'UI Designer',
                 'lokasi' => 'Jakarta Pusat',
                 'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'gaji' => '10000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -35,6 +37,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Data Scientist',
                 'lokasi' => 'Jakarta Pusat',
                 'deskripsi' => 'Untuk kamu yang baru lulus atau fresh graduate juga bisa daftar di lowongan kerja Google Indonesia ini. Selain itu, Tokopedia juga membuka lowongan kerja bagi kamu yang masih menempuh pendidikan S2. Bahkan, jika kamu tidak memiliki ijazah S1, tetap bisa ikut daftar lowongan kerja Tokopedia. Asalkan, punya pengalaman yang cukup sesuai dengan kebutuhan dalam lowongan kerja tersebut.',
+                'gaji' => '8000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -42,6 +45,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Full Stack Engineer',
                 'lokasi' => 'Jakarta',
                 'deskripsi' => 'Tingkatkan sistem back-end kami yang sudah ada yang berjalan di cloud serta memantau dan menanggapi masalah produk yang dilaporkan dari sumber internal dan eksternal. Tidak hanya itu, kamu harus menganalisis masalah aplikasi, sistem, dan infrastruktur yang kompleks.',
+                'gaji' => '10000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -49,6 +53,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Front End Engineer',
                 'lokasi' => 'Jakarta',
                 'deskripsi' => 'Membuat aplikasi untuk memenuhi kebutuhan perusahaan di Front End atau User Interface serta bertanggung jawab atas kode sumber dan repositori proyek dan memiliki keterampilan komunikasi dan kerja tim yang baik dalam Tim Pengembang.',
+                'gaji' => '8000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -56,6 +61,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Risk Management Associate (Marketplace)',
                 'lokasi' => 'Depok',
                 'deskripsi' => 'Dapat memberikan analisis mendalam atas data perilaku pengguna yang masif dan penelitian transaksi untuk mengevaluasi risiko penipuan yang terlibat, terutama di transaksi Marketplace, Kategori & RGX, dan Logistik & Ritel Baru.',
+                'gaji' => '10000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -63,6 +69,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Media Planner Associate',
                 'lokasi' => 'Depok',
                 'deskripsi' => 'Dapat mengembangkan konsep dan rencana kampanye saluran Media Offline, terutama di TV Lakukan brainstorming dengan tim internal dan mitra eksternal untuk menciptakan ide yang solid untuk konsep Acara TV.',
+                'gaji' => '8000000',
                 'tgl_tutup' => '2022/11/28'
             ],
             [
@@ -70,6 +77,7 @@ class LokerSeeder extends Seeder
                 'pekerjaan' => 'Payroll',
                 'lokasi' => 'Depok',
                 'deskripsi' => 'Dapat merekap data absen untuk seluruh pegawai baik tetap maupun sementara serta memasukkan data ke dalam database penggajian dan administrasi serta program perangkat lunak. Dan juga dapat menyiapkan perhitungan penggajian dan semua laporan terkait.',
+                'gaji' => '8000000',
                 'tgl_tutup' => '2022/11/28'
             ],
         ]);

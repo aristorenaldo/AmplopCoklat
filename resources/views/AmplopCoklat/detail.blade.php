@@ -12,7 +12,7 @@
                                 <h4><strong>{{$loker->pekerjaan}}</strong></h4>
                             </li>
                             <li>{{$loker->perusahaan->nama}}</li>
-                            <li>8 jt/bulan</li>
+                            <li>@currency($loker->gaji)</li>
                             <img id="logo-place" src="/images/place.png">
                             <span class="text-secondary-bottom ml-1">{{$loker->lokasi}}</span>
                         </ul>

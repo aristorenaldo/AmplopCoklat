@@ -15,6 +15,7 @@ class Loker extends Model
         'perusahaan_id',
         'lokasi',
         'deskripsi',
+        'gaji',
         'tgl_tutup'
     ];
 
