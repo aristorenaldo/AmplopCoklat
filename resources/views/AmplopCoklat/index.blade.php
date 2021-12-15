@@ -49,6 +49,9 @@
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
                 <span clas="nama-lokasi">{{$loker[0]->lokasi}}</span>
                 <span class="gaji">@currency($loker[0]->gaji)</span>
+                <div class="rounded-lg bg-white px-1 mr-5 w-50">
+                  <p class="mt-3 text-center">Tuna Daksa</p>
+                </div>
               </div>
               <div class="text-right">
                 <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[0]->id]) }}'">Details</button>
@@ -66,6 +69,9 @@
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
                 <span clas="nama-lokasi">{{$loker[1]->lokasi}}</span>
                 <span class="gaji">@currency($loker[1]->gaji)</span>
+                <div class="rounded-lg bg-white px-1 mr-5 w-50">
+                  <p class="mt-3 text-center">Tuna Daksa</p>
+                </div>
               </div>
               <div class="text-right">
                 <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[1]->id]) }}'">Details</button>
@@ -83,6 +89,9 @@
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
                 <span clas="nama-lokasi">{{$loker[2]->lokasi}}</span>
                 <span class="gaji">@currency($loker[2]->gaji)</span>
+                <div class="rounded-lg bg-white px-1 mr-5 w-50">
+                  <p class="mt-3 text-center">Tuna Daksa</p>
+                </div>
               </div>
               <div class="text-right">
                 <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[2]->id]) }}'">Details</button>
