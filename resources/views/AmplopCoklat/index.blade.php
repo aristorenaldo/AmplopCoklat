@@ -42,7 +42,7 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="{{@asset($loker[0]->perusahaan->logo)}}">
+              <img id="logo-google" src="{{asset($loker[0]->perusahaan->logo)}}">
               <h5 class="text-secondary">{{$loker[0]->pekerjaan}}</h5>
               <p class="text-secondary-bottom">{{$loker[0]->perusahaan->nama}}</p> 
               <div>
@@ -59,7 +59,7 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="{{@asset($loker[1]->perusahaan->logo)}}">
+              <img id="logo-google" src="{{asset($loker[1]->perusahaan->logo)}}">
               <h5 class="text-secondary">{{$loker[1]->pekerjaan}}</h5>
               <p class="text-secondary-bottom">{{$loker[1]->perusahaan->nama}}</p> 
               <div>
@@ -76,7 +76,7 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="{{@asset($loker[2]->perusahaan->logo)}}">
+              <img id="logo-google" src="{{asset($loker[2]->perusahaan->logo)}}">
               <h5 class="text-secondary">{{$loker[2]->pekerjaan}}</h5>
               <p class="text-secondary-bottom">{{$loker[2]->perusahaan->nama}}</p> 
               <div>
