@@ -27,6 +27,6 @@ class HomeController extends Controller
     {
         // untuk menampilkan nama dari user yang telah login yang memiliki role pelamar 
         $name = Auth::check() && Auth::user()->role == 0 ? User::find(Auth::id())->pelamar->nama : 'Guest';
-        return view('AmplopCoklat.search', compact('name'));
+        return view('AmplopCoklat.search', compact('name',));
     }
 }

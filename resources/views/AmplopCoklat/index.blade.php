@@ -12,10 +12,16 @@
         <div class="col-md-6 py-5 wow fadeInLeft">
           <h1 class="mb-4">Find Your Dream Job From Your Uniqueness</h1>
           <p class="tagline">Disabilitas Bisa Kerja</p>
-          <div class="search">
-            <input type="text" class="searchTerm" placeholder="Cari Lowongan Kerja">
-            <span><img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20"></span>
-          </div>
+          <form action="{{route('search')}}" method="get">
+            <div class="search">
+              <input type="text" class="searchTerm" name="term" placeholder="Cari Lowongan Kerja">
+              <span>
+                <button type="submit" class="btn btn-sm btn-primary-outline p-0" value="Submit">
+                  <img class="logo-search" src="/images/searchicon.png" alt="Logo-Search" width = "20" height = "20">
+                </button>
+              </span>
+            </div>
+          </form>
         </div>
         <div class="col-md-62 py-5 wow zoomIn">
           <div class="img-fluid mt-5">
@@ -36,16 +42,16 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="/images/Google.png">
-              <h5 class="text-secondary">UI Designer</h5>
-              <p class="text-secondary-bottom">Google LLC</p> 
+              <img id="logo-google" src="{{@asset($loker[0]->perusahaan->logo)}}">
+              <h5 class="text-secondary">{{$loker[0]->pekerjaan}}</h5>
+              <p class="text-secondary-bottom">{{$loker[0]->perusahaan->nama}}</p> 
               <div>
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
-                <span clas="nama-lokasi">Bandung</span>
-                <span class="gaji">Rp. 8jt/bulan</span>
+                <span clas="nama-lokasi">{{$loker[0]->lokasi}}</span>
+                <span class="gaji">@currency($loker[0]->gaji)</span>
               </div>
               <div class="text-right">
-                <button type="button" class="btn btn-primary mt-4">Details</button>
+                <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[0]->id]) }}'">Details</button>
               </div>     
             </div>
           </div>
@@ -53,16 +59,16 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="/images/gojek.png">
-              <h5 class="text-secondary">Android Developer</h5>
-              <p class="text-secondary-bottom">Gojek</p> 
+              <img id="logo-google" src="{{@asset($loker[1]->perusahaan->logo)}}">
+              <h5 class="text-secondary">{{$loker[1]->pekerjaan}}</h5>
+              <p class="text-secondary-bottom">{{$loker[1]->perusahaan->nama}}</p> 
               <div>
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
-                <span clas="nama-lokasi">Jakarta</span>
-                <span class="gaji">Rp. 10jt/bulan</span>
+                <span clas="nama-lokasi">{{$loker[1]->lokasi}}</span>
+                <span class="gaji">@currency($loker[1]->gaji)</span>
               </div>
               <div class="text-right">
-                <button type="button" class="btn btn-primary mt-4">Details</button>
+                <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[1]->id]) }}'">Details</button>
               </div>
             </div>
           </div>
@@ -70,20 +76,20 @@
         <div class="col-lg-4">
           <div class="card-service wow fadeInUp">
             <div class="body">
-              <img id="logo-google" src="/images/tokopedia.png">
-              <h5 class="text-secondary">Data Engineer</h5>
-              <p class="text-secondary-bottom">Tokopedia</p> 
+              <img id="logo-google" src="{{@asset($loker[2]->perusahaan->logo)}}">
+              <h5 class="text-secondary">{{$loker[2]->pekerjaan}}</h5>
+              <p class="text-secondary-bottom">{{$loker[2]->perusahaan->nama}}</p> 
               <div>
                 <img src="/images/location.png" id="gambar-location" width="15" height="20">
-                <span clas="nama-lokasi">Jakarta</span>
-                <span class="gaji">Rp. 15jt/bulan</span>
+                <span clas="nama-lokasi">{{$loker[2]->lokasi}}</span>
+                <span class="gaji">@currency($loker[2]->gaji)</span>
               </div>
               <div class="text-right">
-                <button type="button" class="btn btn-primary mt-4">Details</button>
+                <button type="button" class="btn btn-primary mt-4" onclick="location.href='{{ route('loker.detail',['id'=>$loker[2]->id]) }}'">Details</button>
               </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div> <!-- .container -->
   </div> <!-- .page-section -->

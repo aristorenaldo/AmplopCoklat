@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\LokerController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,13 +17,11 @@ use App\Http\Controllers\LokerController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [LokerController::class, 'index']);
 
-Route::get('/index', function () {
-    return view('AmplopCoklat.index');
-});
+// Route::get('/index', function () {
+//     return view('AmplopCoklat.index');
+// });
 
 Route::get('/login1', function () {
     return view('AmplopCoklat.login');
@@ -40,9 +39,7 @@ Route::get('/statusloker', function () {
     return view('AmplopCoklat.statusloker');
 });
 
-Route::get('/search', function () {
-    return view('AmplopCoklat.search');
-});
+Route::get('/search', [LokerController::class, 'cari'])->name('search');
 
 Route::get('/daftarloker', function () {
     return view('AmplopCoklat.daftarloker');
