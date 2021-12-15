@@ -22,6 +22,7 @@ class LokerController extends Controller
         $loker = Loker::inRandomOrder()
                         ->limit(3)
                         ->get();
+        
         return view('AmplopCoklat.index', compact('loker'));
     }
 

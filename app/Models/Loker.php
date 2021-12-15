@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Carbon;
 
 class Loker extends Model
@@ -27,6 +28,11 @@ class Loker extends Model
     public function persyaratan()
     {
         return $this->hasMany(Persyaratan::class);
+    }
+
+    public function jenis_difabel()
+    {
+        return $this->belongsToMany(JenisDifabel::class,'loker_jenis_difabels');
     }
 
     public function getTglTutup()

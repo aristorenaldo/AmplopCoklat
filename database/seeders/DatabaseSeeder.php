@@ -19,13 +19,16 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             PelamarSeeder::class,
             PerusahaanSeeder::class,
+            JenisDifabelSeeder::class,
             LokerSeeder::class,
             PersyaratanSeeder::class,
+            LokerJenisDifabelSeeder::class,
+            
             // ArtikelSeeder::class,
             // VaksinasiSeeder::class,   
             // ProvinceSeeder::class,  
             // SaranSeeder::class,
-            // PostSeeder::class,      
+            // PostSeeder::class,
         ]);
 
     }
