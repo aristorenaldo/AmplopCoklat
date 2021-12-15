@@ -33,7 +33,7 @@
                   </div>
                   <div class="form-group mb-4">
                     <label for="password" class="sr-only">Password</label>
-                    <input type="password" name="password" id="password" class="form-control @error('username') is-invalid @enderror" placeholder="***********">
+                    <input type="password" name="password" id="password" class="form-control @error('username') is-invalid @enderror" placeholder="***********" required>
                   </div>
                   @error('username')
                   <span class="" role="alert">
