@@ -18,7 +18,10 @@
                         </ul>
                     </div>
                     <div class="rounded-lg bg-white ml-5 px-5 w-25">
-                        <p class="mt-3 text-center">Tuna Daksa</p>
+                        @foreach ($loker->jenis_difabel as $item)
+                        {{$item->jenis}}
+                        @endforeach
+                        <p class="mt-3 text-center"></p>
                     </div>
                     <p class="float-right"> Tutup: <b>{{$loker->getTglTutup()}}</b></p>
                 </div>

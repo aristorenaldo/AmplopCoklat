@@ -50,7 +50,11 @@
                 <span clas="nama-lokasi">{{$loker[0]->lokasi}}</span>
                 <span class="gaji">@currency($loker[0]->gaji)</span>
                 <div class="rounded-lg bg-white px-1 mr-5 w-50">
-                  <p class="mt-3 text-center">Tuna Daksa</p>
+                  <p class="mt-3 text-center">
+                    @foreach ($loker[0]->jenis_difabel as $item)
+                        {{$item->jenis}}
+                    @endforeach
+                  </p>
                 </div>
               </div>
               <div class="text-right">
@@ -70,7 +74,11 @@
                 <span clas="nama-lokasi">{{$loker[1]->lokasi}}</span>
                 <span class="gaji">@currency($loker[1]->gaji)</span>
                 <div class="rounded-lg bg-white px-1 mr-5 w-50">
-                  <p class="mt-3 text-center">Tuna Daksa</p>
+                  <p class="mt-3 text-center">
+                    @foreach ($loker[0]->jenis_difabel as $item)
+                        {{$item->jenis}}
+                    @endforeach
+                  </p>
                 </div>
               </div>
               <div class="text-right">
@@ -90,7 +98,11 @@
                 <span clas="nama-lokasi">{{$loker[2]->lokasi}}</span>
                 <span class="gaji">@currency($loker[2]->gaji)</span>
                 <div class="rounded-lg bg-white px-1 mr-5 w-50">
-                  <p class="mt-3 text-center">Tuna Daksa</p>
+                  <p class="mt-3 text-center">
+                    @foreach ($loker[2]->jenis_difabel as $item)
+                        {{$item->jenis}}
+                    @endforeach
+                  </p>
                 </div>
               </div>
               <div class="text-right">

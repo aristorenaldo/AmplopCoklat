@@ -41,10 +41,6 @@ class LokerJenisDifabelSeeder extends Seeder
                 'jenis_id' => '2'
             ],
             [
-                'loker_id' => '6',
-                'jenis_id' => '2'
-            ],
-            [
                 'loker_id' => '7',
                 'jenis_id' => '2'
             ],

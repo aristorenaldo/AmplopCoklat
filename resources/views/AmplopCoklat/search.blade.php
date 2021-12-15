@@ -47,13 +47,17 @@
                                 <span class="text-secondary-bottom ml-1">{{$item->lokasi}}</span>
                             </div>
                             <div class="rounded-lg bg-white px-1 w-60">
-                                <p class="mt-3 text-center">Tuna Daksa</p>
+                                <p class="mt-3 text-center">
+                                    @foreach ($item->jenis_difabel as $item1)
+                                        {{$item1->jenis}}
+                                    @endforeach
+                                </p>
                             </div>
                         </ul>
                     </div>
                     <p class="float-right"> Tutup: <b>{{$item->tgl_tutup}}</b></p>
                     <div class="mt-5 text-right">
-                        <button type="button" class="btn btn-primary mt-4">Details</button>
+                        <button type="button" class="btn btn-primary mt-4"  onclick="location.href='{{ route('loker.detail',['id'=>$item->id]) }}'">Details</button>
                     </div>
                 </div>
             </div>
