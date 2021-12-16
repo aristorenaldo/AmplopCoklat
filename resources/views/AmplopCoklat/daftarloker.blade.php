@@ -11,28 +11,29 @@
                         @csrf
                         <div class="form-group mb-2">
                             <label for="nama">Nama Lengkap</label>
-                            <input type="text" class="form-control" name="nama" id="nama">
+                            <input type="text" class="form-control" name="nama" id="nama" value="{{$user->pelamar->nama}}">
                         </div>
                         <div class="form-group mb-2">
                             <label for="alamat">Alamat</label>
-                            <input type="text" name="alamat" class="form-control" name="alamat" id="alamat">
+                            <input type="text" name="alamat" class="form-control" name="alamat" id="alamat" value="{{$user->pelamar->alamat}}">
                         </div>
-                        <div class="form-group mb-2">
+                        {{-- <div class="form-group mb-2">
                             <label for="ttl">Tempat dan Tanggal Lahir</label>
-                            <input type="text" class="form-control" name="ttl" id="tll">
-                        </div>
+                            <input type="date" class="form-control" name="ttl" id="tll">
+                        </div> --}}
                         <div class="form-group mb-2">
                             <label for="jenis-kelamin">Jenis Kelamin</label>
-                            <select class="form-control" id="jenis-kelamin" name="jenis-kelamin">
-                                <option value="pria">Pria</option>
-                                <option value="wanita">Wanita</option>
+                            <select autocomplete="off" class="form-control" id="jenis-kelamin" name="jenis-kelamin"> 
+                                <option {{ ($user->pelamar->jenis_kelamin == 0) ? 'selected' : '' }} value="0">Pria</option>
+                                <option {{ ($user->pelamar->jenis_kelamin == 1) ? 'selected' : '' }} value="1">Wanita</option>
                             </select>
                         </div>
                         <div class="form-group mb-2">
                             <label for="jenis-disabilitas">Jenis Disabilitas</label>
-                            <select type="text" class="form-control" id="jenis-disabilitas" name="jenis-disabilitas">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
+                            <select autocomplete="off" class="form-control form-select" id="jenis-disabilitas" name="jenis-disabilitas">
+                                @foreach ($jenisDifabel as $difabel)
+                                <option    {{ ($user->pelamar->jenis_disabilitas == $difabel->id) ? 'selected' : '' }} value="{{$difabel->id}}">{{$difabel->jenis}}</option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="form-group mt-4 mb-2">

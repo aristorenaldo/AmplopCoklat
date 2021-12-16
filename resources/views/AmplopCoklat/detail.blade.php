@@ -39,7 +39,7 @@
                 @foreach ($loker->persyaratan as $syarat)
                 <li>{{$syarat->syarat}}</li>
                 @endforeach
-                <a href="service.html" class="btn btn-primary mt-5">DAFTAR</a>
+                <a href="{{ route('loker.daftar',['id'=>$loker->id]) }}" class="btn btn-primary mt-5">DAFTAR</a>
             </div>
             <div class="col-lg-6 py-3 wow fadeInRight">
                 <div class="img-fluid py-3 text-center">

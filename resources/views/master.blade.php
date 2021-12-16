@@ -46,16 +46,16 @@
                             <a class="nav-link" href="{{route('home')}}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.html">Services</a>
+                            <a class="nav-link" href="">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
+                            <a class="nav-link" href="">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="">Contact</a>
                         </li>
                         @guest
                         <li class="nav-item">
@@ -77,6 +77,7 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                     @csrf
                                 </form>
+                                <a href="{{route('liststatus')}}">Lihat Riwayat</a>
                             </div>
                             
                         </li>

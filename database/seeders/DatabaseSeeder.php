@@ -17,13 +17,13 @@ class DatabaseSeeder extends Seeder
         $this->call([
             // RoleSeeder::class,
             UserSeeder::class,
+            JenisDifabelSeeder::class,
             PelamarSeeder::class,
             PerusahaanSeeder::class,
-            JenisDifabelSeeder::class,
             LokerSeeder::class,
             PersyaratanSeeder::class,
             LokerJenisDifabelSeeder::class,
-            
+            LokerPelamarSeeder::class,
             // ArtikelSeeder::class,
             // VaksinasiSeeder::class,   
             // ProvinceSeeder::class,  

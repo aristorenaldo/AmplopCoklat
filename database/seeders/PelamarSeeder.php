@@ -20,7 +20,7 @@ class PelamarSeeder extends Seeder
                 'nama' => 'Duwi Purnama Sidik',
                 'alamat' => 'Jalan blablabla Malang, Jawa Timur',
                 'jenis_kelamin' => '0',
-                'jenis_disabilitas' => '0',
+                'jenis_disabilitas' => '2',
                 'resume' => 'resume1.pdf'
             ]
         ]);

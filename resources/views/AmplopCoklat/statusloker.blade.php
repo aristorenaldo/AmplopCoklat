@@ -13,11 +13,11 @@
                             <li>
                                 <b>Nama</b>
                                 :
-                                Budi Budidi
+                                {{$user->pelamar->nama}}
                             </li>
-                            <li><b>Pilihan Pekerjaan</b> : UI Designer</li>
-                            <li><b>Perusahaan</b> : Google LLC</li>
-                            <li><b>Waktu Pendaftaran</b> : 22 November 2021</li>
+                            <li><b>Pilihan Pekerjaan</b> : {{$user->pelamar->getLoker($idLoker)->first()->pekerjaan}}</li>
+                            <li><b>Perusahaan</b> :  {{$user->pelamar->getLoker($idLoker)->first()->perusahaan->nama}}</li>
+                            <li><b>Waktu Pendaftaran</b> : {{$user->pelamar->getLoker($idLoker)->first()->pivot->created_at}}</li>
                         </ul>
                     </div>
 
@@ -36,7 +36,7 @@
             <h3>Keterangan:</h3>
             <div class="border rounded-lg p-5">
                 <ul class="mb-0">
-                    <li>Proses Seleksi Berkas oleh HRD</li>
+                    <li>{{$user->pelamar->getLoker($idLoker)->first()->pivot->status}}</li>
                 </ul>
             </div>
         </div>

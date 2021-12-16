@@ -11,9 +11,11 @@ class JenisDifabel extends Model
     protected $fillable = [
         'jenis'
     ];
-
+    // relasi many to many dengan loker
     public function loker()
     {
         return $this->belongsToMany(Loker::class, 'loker_jenis_difabels');
     }
+
+    
 }

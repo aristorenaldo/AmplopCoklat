@@ -34,10 +34,28 @@ class Loker extends Model
     {
         return $this->belongsToMany(JenisDifabel::class,'loker_jenis_difabels');
     }
+    
+   
 
     public function getTglTutup()
     {
         return Carbon::parse($this->attributes['tgl_tutup'])
             ->translatedFormat('l, d F Y');
     }
+
+    public function pelamar()
+    {
+        return $this->belongsToMany(Pelamar::class,'loker_pelamar');
+    }
+    
+    
+
+    // public function getTanggalDaftar()
+    // {
+      
+    //     return Carbon::parse($this->)
+    //         ->translatedFormat('l, d F Y');
+    // }
+
+
 }

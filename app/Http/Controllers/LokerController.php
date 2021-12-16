@@ -7,6 +7,7 @@ use App\Models\Loker;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use Carbon\Carbon;
 
 class LokerController extends Controller
 {
@@ -51,4 +52,50 @@ class LokerController extends Controller
         return view('AmplopCoklat.search',compact('loker','name'));
 
     }
+
+    public function daftar(Request $request, $id)
+    {
+        $request->validate([
+            'nama' => ['required', 'string'],
+            'alamat' => ['required', 'string'],
+            'jenis-kelamin' => ['required', 'boolean'],
+            'jenis-disabilitas' => ['required', 'numeric', 'digits:1'],
+            'resume' => ['required'],
+            'tambahan' => ['required'],
+        ]);
+
+        if ($request->hasFile('resume') && $request->hasFile('tambahan') ) {
+            $resumeFile = $request->file('resume');
+            $tambahanFile = $request->file('tambahan');
+            $nama_resume = Auth::id() . "_" . $id . "_" . $resumeFile->getClientOriginalName();
+            $nama_tambahan = Auth::id() . "_" .  $id . "_" . $tambahanFile->getClientOriginalName();
+            $tujuan_upload_resume = 'file/resume/';
+            $tujuan_upload_tambahan = 'file/tambahan/';
+            $resumeFile->move($tujuan_upload_resume, $nama_resume);
+            $tambahanFile->move($tujuan_upload_tambahan, $nama_tambahan);
+        }
+        //update pelamar
+
+        $user = User::find(Auth::id());
+        $user->pelamar->nama = $request->input('nama');
+        $user->pelamar->alamat = $request->input('alamat');
+        $user->pelamar->jenis_kelamin = $request->input('jenis-kelamin');
+        $user->pelamar->jenis_disabilitas = $request->input('jenis-disabilitas');
+        $user->save();
+
+        //tambah loker_pelamar
+        DB::table('loker_pelamar')->insert([
+            'pelamar_id' => Auth::id(),
+            'loker_id'=> $id,
+            'resume' => $tujuan_upload_resume . $nama_resume, 
+            'dokumen_pendukung' => $tujuan_upload_tambahan . $nama_tambahan,
+            'status' => 'mengunggu hasil',
+            'created_at' => Carbon::now()->toDateTimeString(),
+            'updated_at' => Carbon::now()->toDateTimeString()
+        ]);
+
+        return redirect()->route('home');
+
+    }
+
 }
