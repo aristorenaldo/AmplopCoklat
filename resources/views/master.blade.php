@@ -33,7 +33,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
             <div class="container">
-                <a href="#" id="judul" class="navbar-brand">AmplopCoklat</a>
+                <a href="{{url('/')}}" id="judul" class="navbar-brand">AmplopCoklat</a>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
