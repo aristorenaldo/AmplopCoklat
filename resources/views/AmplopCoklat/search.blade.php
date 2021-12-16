@@ -38,13 +38,27 @@
                     <div class="d-flex align-items-center">
                         <img id="logo-google" src="{{asset($item->perusahaan->logo)}}">
                         <ul type="none">
-                            <li>{{$item->pekerjaan}}</li>
+                            <li>
+                                <h4><strong>{{$item->pekerjaan}}</strong></h4>
+                            </li>
                             <li>{{$item->perusahaan->nama}}</li>
-                            <img id="logo-place" src="/images/place.png">
-                            <span class="text-secondary-bottom ml-1">{{$item->lokasi}}</span>
+                            <div class="mt-3">
+                                <img id="logo-place" src="/images/place.png">
+                                <span class="text-secondary-bottom ml-1">{{$item->lokasi}}</span>
+                            </div>
+                            <div class="rounded-lg bg-white px-1 w-60">
+                                <p class="mt-3 text-center">
+                                    @foreach ($item->jenis_difabel as $item1)
+                                        {{$item1->jenis}}
+                                    @endforeach
+                                </p>
+                            </div>
                         </ul>
                     </div>
                     <p class="float-right"> Tutup: <b>{{$item->tgl_tutup}}</b></p>
+                    <div class="mt-5 text-right">
+                        <button type="button" class="btn btn-primary mt-4"  onclick="location.href='{{ route('loker.detail',['id'=>$item->id]) }}'">Details</button>
+                    </div>
                 </div>
             </div>
         </div>

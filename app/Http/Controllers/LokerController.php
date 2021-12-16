@@ -12,7 +12,7 @@ class LokerController extends Controller
 {
     //
     public function detail($id)
-    {
+    {   
         $loker = Loker::find($id);
         return view('AmplopCoklat.detail',compact('loker'));
     }
@@ -22,6 +22,7 @@ class LokerController extends Controller
         $loker = Loker::inRandomOrder()
                         ->limit(3)
                         ->get();
+        
         return view('AmplopCoklat.index', compact('loker'));
     }
 
